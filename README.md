@@ -67,4 +67,6 @@ Ed-PdD-Copilot-Skills/
 
 ## License
 
-许可证待定。若后续显著改编 `Supervisor-Skills` 的内容，应兼容并遵守其原始许可证要求。
+本项目当前采用 MIT License。
+
+若后续显著改编或复用 `Supervisor-Skills` 的具体文本、结构或资源，应在对应文件中标注来源，并兼容、遵守其原始许可证要求。

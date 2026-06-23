@@ -1,0 +1,3 @@
+display_name: EdTech Pre Submission Reviewer
+short_description: Review EdTech manuscripts.
+default_prompt: Review this education technology manuscript before submission.

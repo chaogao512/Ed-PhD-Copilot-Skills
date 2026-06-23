@@ -5,20 +5,23 @@
 - 建立独立 Git 仓库。
 - 编写项目定位 README。
 - 搭建 `handbook/` 与 `plugins/ed-pdd-copilot/skills/` 目录骨架。
+- 将主许可证调整为 CC BY-NC-SA 4.0，以兼容 `Supervisor-Skills` 的改编要求。
 
-## Phase 2: 模板诊断与迁移设计
+## Phase 2: 框架迁移与方向适配
 
-- 对照 `Supervisor-Skills` 的现有模块，形成逐项改造清单。
-- 明确哪些内容需要重写、哪些结构可以借鉴、哪些资源不应迁移。
-- 制定首批 Skills 的命名、触发场景和输出规范。
+- 保留“Handbook + Skills”的双轨结构。
+- 将原技术论文导向的技能分工改造为教育信息化治理研究导向。
+- 将原“算法性能、顶会叙事、纯技术实验”逻辑替换为“政策背景、组织变革、教育理论、混合循证、伦理治理”逻辑。
 
 ## Phase 3: 首批 Skills 建设
 
 - `governance-idea-evaluator`
 - `edtech-intro-drafter`
-- `mixed-methods-designer`
-- `edtech-paper-reviewer`
+- `governance-paper-template`
+- `mixed-methods-evidence-template`
 - `governance-figure-designer`
+- `edtech-pre-submission-reviewer`
+- `ai-assisted-edtech-research-workflow`
 
 ## Phase 4: Handbook 建设
 

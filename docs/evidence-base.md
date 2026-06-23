@@ -97,3 +97,17 @@ This file records the external materials used to refine `Ed-PdD-Copilot-Skills`.
 | Professional development requires mechanisms and implementation | Teacher digital competence studies must connect training to classroom practice, feedback and organizational support |
 | Causal evidence standards | Do not claim intervention effectiveness from satisfaction surveys, descriptive data or single posttest evidence |
 | Full-chain case validation | A mature skill set should demonstrate idea evaluation, paper structure, method design, introduction, figure, review and AI workflow on the same case |
+
+## V1.3 Additions
+
+- Unified the main smart-campus example outputs with the standard example protocol.
+- Added installation-forward simulation testing before modifying the user's active Codex skill environment.
+- Extended structure checks to enforce protocol fields for both main examples and multi-case examples.
+
+## V1.3 Rule Translation
+
+| Source pattern | Skill rule |
+|---|---|
+| Progressive disclosure | Installation readiness should verify skill metadata, reference routing and output formats before installation |
+| Regression examples | A mature skill should be checked against positive cases and failure cases, not only folder existence |
+| Environment safety | Installation-forward testing can be simulated before changing a user's active local skill environment |

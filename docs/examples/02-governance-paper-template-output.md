@@ -1,5 +1,22 @@
 # Example Output: governance-paper-template
 
+## Input Summary
+
+基于多 Agent 的高校智能校园治理机制研究。
+
+## Skill Invoked
+
+`governance-paper-template`
+
+## References Used
+
+- `paper-types.md`
+- `theory-to-design.md`
+- `dual-topology.md`
+- `section-skeleton.md`
+
+## Main Output
+
 ## 1. Paper type and thesis statement
 
 论文类型：智能校园治理架构与人智协同机制论文。

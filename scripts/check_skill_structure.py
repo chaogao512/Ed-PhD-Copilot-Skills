@@ -41,7 +41,9 @@ REQUIRED_DOCS = [
     "docs/review-2026-06-23-v1.0.md",
     "docs/review-2026-06-23-v1.1.md",
     "docs/review-2026-06-23-v1.2.md",
+    "docs/review-2026-06-23-v1.3.md",
     "docs/install-readiness-audit.md",
+    "docs/install-forward-test.md",
     "CHANGELOG.md",
 ]
 
@@ -90,6 +92,16 @@ CASE_REQUIRED_SUFFIXES = [
     "07-ai-assisted-workflow-output.md",
 ]
 
+MAIN_EXAMPLE_FILES = [
+    "docs/examples/01-governance-idea-evaluator-output.md",
+    "docs/examples/02-governance-paper-template-output.md",
+    "docs/examples/03-edtech-intro-drafter-output.md",
+    "docs/examples/04-mixed-methods-evidence-output.md",
+    "docs/examples/05-governance-figure-designer-output.md",
+    "docs/examples/06-edtech-pre-submission-review-output.md",
+    "docs/examples/07-ai-assisted-workflow-output.md",
+]
+
 
 def fail(msg: str) -> None:
     print(f"FAIL: {msg}")
@@ -113,8 +125,8 @@ def main() -> int:
         coverage_text = coverage.read_text(encoding="utf-8")
         if "pending" in coverage_text.lower():
             failures.append("coverage matrix still contains pending items")
-        if "V1.2" not in coverage_text:
-            failures.append("coverage matrix does not reflect V1.2 status")
+        if "V1.3" not in coverage_text:
+            failures.append("coverage matrix does not reflect V1.3 status")
 
     inventory = ROOT / "docs" / "chinese-core-literature-inventory.md"
     if inventory.exists():
@@ -150,6 +162,14 @@ def main() -> int:
                 for required in ["## Input Summary", "## Skill Invoked", "## References Used", "## Main Output"]:
                     if required not in text:
                         failures.append(f"{case_dir}/{filename}: lacks example protocol section {required}")
+
+    for rel in MAIN_EXAMPLE_FILES:
+        path = ROOT / rel
+        if path.exists():
+            text = path.read_text(encoding="utf-8")
+            for required in ["## Input Summary", "## Skill Invoked", "## References Used", "## Main Output"]:
+                if required not in text:
+                    failures.append(f"{rel}: lacks example protocol section {required}")
 
     failure_dir = ROOT / "docs" / "examples" / "failure-cases"
     if failure_dir.exists():

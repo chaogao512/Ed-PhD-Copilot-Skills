@@ -1,5 +1,22 @@
 # Example Output: mixed-methods-evidence-template
 
+## Input Summary
+
+基于多 Agent 的高校智能校园治理机制研究。
+
+## Skill Invoked
+
+`mixed-methods-evidence-template`
+
+## References Used
+
+- `claim-evidence-matrix.md`
+- `quantitative-methods.md`
+- `qualitative-methods.md`
+- `triangulation.md`
+
+## Main Output
+
 ## Research questions and claim types
 
 | RQ | Claim type |

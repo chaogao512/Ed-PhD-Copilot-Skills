@@ -1,5 +1,12 @@
 # Changelog
 
+## V1.3 - 2026-06-23
+
+- Unified the main smart-campus example outputs with the same example protocol fields used by multi-case outputs.
+- Added `docs/install-forward-test.md` as an installation-forward simulation report.
+- Strengthened structure checks so main examples and multi-case examples must include `Input Summary`, `Skill Invoked`, `References Used`, and `Main Output`.
+- Updated README and coverage records for V1.3 readiness.
+
 ## V1.2 - 2026-06-23
 
 - Expanded the three V1.1 multi-case scenarios to full seven-skill chains.

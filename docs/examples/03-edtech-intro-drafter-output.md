@@ -1,5 +1,21 @@
 # Example Output: edtech-intro-drafter
 
+## Input Summary
+
+基于多 Agent 的高校智能校园治理机制研究。
+
+## Skill Invoked
+
+`edtech-intro-drafter`
+
+## References Used
+
+- `four-part-logic.md`
+- `paragraph-patterns.md`
+- `alienation-patterns.md`
+
+## Main Output
+
 ## Paper positioning
 
 智能校园治理机制论文，采用系统架构设计与混合证据验证。

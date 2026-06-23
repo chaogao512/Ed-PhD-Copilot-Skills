@@ -1,5 +1,21 @@
 # Example Output: governance-idea-evaluator
 
+## Input Summary
+
+基于多 Agent 的高校智能校园治理机制研究。
+
+## Skill Invoked
+
+`governance-idea-evaluator`
+
+## References Used
+
+- `fatal-flaws.md`
+- `rubric.md`
+- `theory-anchors.md`
+
+## Main Output
+
 ## 1. One-sentence positioning
 
 该选题属于“智能校园治理架构 + 人智协同机制 + 混合研究验证”的教育信息化治理研究，核心贡献在于把多 Agent 技术嵌入高校数据治理、协同决策和人类监督机制之中。

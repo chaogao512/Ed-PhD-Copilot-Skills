@@ -1,5 +1,21 @@
 # Example Output: governance-figure-designer
 
+## Input Summary
+
+基于多 Agent 的高校智能校园治理机制研究。
+
+## Skill Invoked
+
+`governance-figure-designer`
+
+## References Used
+
+- `figure-types.md`
+- `layout-patterns.md`
+- `quality-audit.md`
+
+## Main Output
+
 ## Figure type
 
 Layered smart campus governance architecture + human-AI feedback loop.

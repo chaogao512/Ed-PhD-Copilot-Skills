@@ -1,5 +1,23 @@
 # Example Output: edtech-pre-submission-reviewer
 
+## Input Summary
+
+基于多 Agent 的高校智能校园治理机制研究。
+
+## Skill Invoked
+
+`edtech-pre-submission-reviewer`
+
+## References Used
+
+- `review-rubric.md`
+- `theory-policy-checklist.md`
+- `method-evidence-checklist.md`
+- `ethics-data-governance.md`
+- `style-anti-patterns.md`
+
+## Main Output
+
 ## Overall verdict
 
 Major revision. 选题有价值，理论和架构方向清晰，但证据边界和伦理说明仍需加强。

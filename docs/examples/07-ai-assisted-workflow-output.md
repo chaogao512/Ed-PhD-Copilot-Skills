@@ -1,5 +1,22 @@
 # Example Output: ai-assisted-edtech-research-workflow
 
+## Input Summary
+
+基于多 Agent 的高校智能校园治理机制研究。
+
+## Skill Invoked
+
+`ai-assisted-edtech-research-workflow`
+
+## References Used
+
+- `human-ai-boundary.md`
+- `allowed-uses.md`
+- `red-lines.md`
+- `verification-checklist.md`
+
+## Main Output
+
 ## Work-block classification
 
 准备“基于多 Agent 的高校智能校园治理机制研究”开题报告的一周工作，属于理论映射、方法设计、图示设计和写作规划混合任务。

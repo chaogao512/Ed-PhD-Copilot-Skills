@@ -69,6 +69,29 @@ Ed-PdD-Copilot-Skills/
 | `edtech-pre-submission-reviewer` | 按教育技术与教育管理期刊标准进行投稿前审查 |
 | `ai-assisted-edtech-research-workflow` | 规划负责任的 AI 辅助教育技术研究流程，保留研究者的学术判断权 |
 
+
+## 当前成熟度
+
+当前版本为 **V0.4 样例验证版**：
+
+- 7 个技能均已具备 `SKILL.md`、`agents/openai.yaml` 和 `references/` 支撑文件。
+- 已建立外部依据清单：[`docs/evidence-base.md`](docs/evidence-base.md)。
+- 已建立覆盖矩阵：[`docs/skill-coverage-matrix.md`](docs/skill-coverage-matrix.md)。
+- 已建立贯穿案例：[`docs/case-multi-agent-smart-campus.md`](docs/case-multi-agent-smart-campus.md)。
+- 已用贯穿案例生成 7 个技能样例输出，见 [`docs/examples/`](docs/examples/)。
+
+下一阶段目标是 V1.0：继续补充更多真实案例、中文教育技术文献依据、结构检查自动化和跨技能回归测试。
+
+## 推荐使用路径
+
+1. 选题初筛：`governance-idea-evaluator`。
+2. 论文骨架：`governance-paper-template`。
+3. 证据设计：`mixed-methods-evidence-template`。
+4. 引言生成：`edtech-intro-drafter`。
+5. 图示设计：`governance-figure-designer`。
+6. 投稿审查：`edtech-pre-submission-reviewer`。
+7. 全程人机协作边界：`ai-assisted-edtech-research-workflow`。
+
 ## 与 Supervisor-Skills 的关系
 
 本仓库借鉴 `HKUSTDial/Supervisor-Skills` 的组织理念和部分技能分工思路，并面向教育技术、教育领导与管理、教育信息化治理方向进行改写。原项目采用 CC BY-NC-SA 4.0 协议；本项目作为改编取向项目，同样采用 CC BY-NC-SA 4.0 协议发布。

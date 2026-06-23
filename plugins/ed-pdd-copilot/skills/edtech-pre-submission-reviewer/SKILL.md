@@ -8,60 +8,30 @@ description: >-
 
 ## Overview
 
-Run a pre-submission review for education technology and education governance manuscripts. Prioritize bugs in the argument: weak theory, policy slogans without analysis, technology determinism, unsupported governance claims, ethics gaps, method-evidence mismatch, and overclaiming beyond data.
+Run a pre-submission review for education technology and education governance manuscripts. Prioritize bugs in the argument: weak theory, policy slogans without analysis, technology determinism, unsupported governance claims, ethics gaps, method-evidence mismatch and overclaiming beyond data.
 
-## Severity
+## Reference Navigation
 
-- CRITICAL: likely to block acceptance or create ethical/compliance risk.
-- MAJOR: weakens contribution or credibility but fixable with revision.
-- MINOR: local clarity, style, or formatting issue.
+- Read `references/review-rubric.md` for severity definitions.
+- Read `references/theory-policy-checklist.md` for theory and policy review.
+- Read `references/method-evidence-checklist.md` for method and evidence review.
+- Read `references/ethics-data-governance.md` for privacy, fairness and human oversight.
+- Read `references/style-anti-patterns.md` for language and AI-tone issues.
 
 ## Review Dimensions
 
-### 1. Topic and contribution
+1. Topic and contribution
+2. Policy and context grounding
+3. Theory depth
+4. Method and evidence alignment
+5. Mixed-methods and statistics
+6. Ethics and data governance
+7. Figures and tables
+8. Academic style
 
-Check whether the manuscript has a real education governance problem, not only a tool demonstration. The contribution should name what changes in theory, mechanism, evidence, or practice.
+## Output Rule
 
-### 2. Policy and context grounding
-
-Policy references must support the problem logic. Flag empty slogans, decorative policy quotation, or claims that ignore institutional constraints.
-
-### 3. Theory depth
-
-Check whether educational, management, or system theory actually shapes the framework, indicators, or interpretation. Decorative theory is MAJOR or CRITICAL depending on centrality.
-
-### 4. Method and evidence alignment
-
-Match claims to evidence:
-
-- Governance effectiveness requires organizational or process evidence.
-- Learning improvement requires learning evidence.
-- Teacher acceptance requires teacher data.
-- Ethical safety requires governance safeguards, not only declarations.
-- Technical feasibility alone cannot support educational value.
-
-### 5. Mixed-methods and statistics
-
-Check sampling, instrument source, reliability, validity, coding, triangulation, and interpretation boundaries. For indicator systems, inspect Delphi, expert composition, consistency, and weighting rationale.
-
-### 6. Ethics and data governance
-
-Check informed consent, anonymization, data minimization, student privacy, fairness, transparency, human override, and institutional approval.
-
-### 7. Figures and tables
-
-Check whether figures show socio-technical governance mechanisms rather than generic boxes. Tables should clarify theory, indicators, evidence, or comparison, not duplicate prose.
-
-### 8. Academic style
-
-Flag:
-
-- AI-flavored generic praise
-- Technology worship
-- Overuse of “empowerment” without mechanism
-- Untranslated engineering jargon
-- Unsupported “significant improvement” claims
-- Conclusion that outruns evidence
+Findings lead the response, ordered by CRITICAL, MAJOR and MINOR. Each finding must include location, problem, why it matters, repair action and whether it is feasible within 72 hours.
 
 ## Output Format
 

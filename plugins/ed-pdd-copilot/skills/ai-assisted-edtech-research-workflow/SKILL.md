@@ -8,66 +8,23 @@ description: >-
 
 ## Overview
 
-Plan AI-assisted research while keeping academic judgment with the researcher. AI may accelerate organization, coding, figure drafting, language polishing, and checklist-based review. It must not replace problem selection, theoretical judgment, research design ownership, data interpretation, citation verification, ethics responsibility, or final claims.
+Plan AI-assisted research while keeping academic judgment with the researcher. AI may accelerate organization, coding, figure drafting, language polishing and checklist-based review. It must not replace problem selection, theoretical judgment, research design ownership, data interpretation, citation verification, ethics responsibility or final claims.
 
-## Step 1: Classify the work block
+## Reference Navigation
 
-Choose one or more:
+- Read `references/human-ai-boundary.md` when assigning responsibilities.
+- Read `references/allowed-uses.md` when planning work blocks.
+- Read `references/red-lines.md` when a request may cross academic integrity boundaries.
+- Read `references/verification-checklist.md` before accepting AI-assisted output.
 
-- Literature organization
-- Research question refinement
-- Theory mapping
-- Method design
-- Data analysis assistance
-- Figure design
-- Writing and revision
-- Submission audit
+## Core Procedure
 
-## Step 2: Human responsibility boundary
-
-The human researcher must own:
-
-- Research problem and value judgment
-- Choice of theory
-- Study design and data legitimacy
-- Interpretation of findings
-- Citation accuracy
-- Ethics and disclosure
-- Final manuscript responsibility
-
-## Step 3: Permitted AI assistance
-
-AI may assist with:
-
-- Summarizing user-provided literature
-- Comparing theories after sources are supplied
-- Generating alternative outlines
-- Checking method-evidence alignment
-- Drafting figure layout suggestions
-- Polishing language without inventing facts
-- Creating checklists and revision plans
-
-## Step 4: Red lines
-
-Reject or warn when AI is asked to:
-
-- Invent references or fabricate policy basis
-- Decide the core research contribution without user judgment
-- Generate data, interview records, or experimental results
-- Hide AI involvement when disclosure is required
-- Turn a weak technical demo into exaggerated educational impact
-- Remove ethics limitations for rhetorical convenience
-
-## Step 5: Verification routine
-
-For every AI-assisted output, require:
-
-- Source traceability
-- Claim-evidence match
-- Citation verification
-- Method consistency
-- Ethics check
-- User approval of final interpretation
+1. Classify the work block: literature, theory, method, data, figure, writing or review.
+2. Define human-owned decisions.
+3. Define allowed AI assistance.
+4. Check red lines.
+5. Create verification routine.
+6. Recommend next concrete action.
 
 ## Output Format
 

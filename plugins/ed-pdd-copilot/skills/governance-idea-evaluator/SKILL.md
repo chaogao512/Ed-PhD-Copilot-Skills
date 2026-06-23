@@ -8,75 +8,48 @@ description: >-
 
 ## Overview
 
-Evaluate a preliminary research idea as an education technology and education governance study, not as a pure algorithm project. Judge whether the idea responds to a real governance problem, is anchored in educational or management theory, can be implemented within school or regional organizational constraints, and can be evidenced without violating ethics or overclaiming technical effects.
+Evaluate a preliminary research idea as an education technology and education governance study, not as a pure algorithm project. Judge whether the idea responds to a real governance problem, is theory-anchored, organizationally feasible, ethically controllable and evidencable with appropriate mixed evidence.
+
+## Reference Navigation
+
+- Always read `references/fatal-flaws.md` before scoring.
+- Read `references/rubric.md` when assigning scores or verdicts.
+- Read `references/theory-anchors.md` when the theory is missing or decorative.
+- Read `references/worked-examples.md` when the user gives a vague or familiar scenario.
 
 ## Core Procedure
 
 ### Step 1: Research positioning
 
-Classify the idea as one or more of:
-
-- Policy and governance problem diagnosis
-- Smart campus or education data governance architecture
-- AI governance or human-AI collaboration mechanism
-- Teacher digital competence or organizational change study
-- Evaluation model, indicator system, or mixed-methods empirical study
-- Design science research artifact
-
-State the one-sentence research contribution. If this sentence cannot be written, ask the user to clarify the education scenario, stakeholder, governance pain point, and intended intervention.
+Classify the idea as policy/governance diagnosis, smart campus architecture, AI governance mechanism, teacher digital competence, indicator/evaluation model, mixed-methods empirical study, or design science artifact. State the one-sentence research contribution. If this cannot be written, ask for scenario, stakeholder, governance pain point and intended intervention.
 
 ### Step 2: Fatal-flaws audit
 
-Check these early. If any item is CRITICAL, stop and recommend pivoting.
+Load `references/fatal-flaws.md`. If ethics impossible, evidence mismatch, or technology-first without governance problem is CRITICAL, stop and return `Pivot` with a repair path. Do not continue to decorative scoring.
 
-| Flaw | Detection rule |
-|---|---|
-| Technology-first without governance problem | The idea begins with a tool and cannot name a school, regional, or organizational problem. |
-| Policy misalignment | The proposal conflicts with education digitalization, privacy, equity, or public-interest requirements. |
-| Human role erased | Teachers, administrators, students, or parents are treated as passive data sources. |
-| Ethics impossible | The idea requires identifiable student data, opaque profiling, or algorithmic decisions without consent and safeguards. |
-| Evidence mismatch | Claims concern governance effectiveness, but evidence only measures model accuracy or system throughput. |
-| Theory vacuum | The architecture or indicator system has no educational, management, or system-science rationale. |
+### Step 3: Governance value scoring
 
-### Step 3: Governance value matrix
-
-Score 1-5 with evidence:
-
-1. Policy relevance: alignment with education digitalization, high-quality education system, digital governance, or AI ethics.
-2. Educational value: contribution to learning, teaching, evaluation, leadership, equity, or organizational improvement.
-3. Organizational feasibility: fit with school hierarchy, teacher workload, data availability, and implementation capacity.
-4. Human-AI collaboration: clarity of human authority, value alignment, feedback loops, and override rights.
-5. Methodological evidencability: availability of mixed evidence, not only technical metrics.
-6. Ethical and legal controllability: consent, desensitization, fairness, explainability, and data minimization.
-7. Theoretical contribution: ability to extend, test, or translate a named theory.
+Load `references/rubric.md`. Score policy relevance, educational value, organizational feasibility, human-AI collaboration, methodological evidencability, ethical/legal controllability and theoretical contribution from 1 to 5 with evidence.
 
 ### Step 4: Theory anchoring probe
 
-Recommend one or two theory anchors, such as collaborative governance, organizational change, ecological systems theory, activity theory, TPACK, OBE, PDCA, socio-technical systems, data governance theory, or human-AI collaboration theory. Explain how each theory changes the research design rather than serving as decoration.
+Load `references/theory-anchors.md`. Recommend one or two theories and state how each changes design principles, data collection or interpretation.
 
-### Step 5: Evidence design fit
+### Step 5: Evidence route and next-skill routing
 
-Map the idea to an evidence route:
+Choose an evidence route: framework, design science, mixed-methods empirical, or indicator-system study. Route next step:
 
-- Conceptual or framework paper: policy text, theoretical synthesis, expert consultation.
-- Design science research: artifact design, expert review, scenario validation, iterative refinement.
-- Mixed-methods empirical study: logs, questionnaires, interviews, classroom or governance records, triangulation.
-- Indicator system study: literature coding, Delphi, AHP or entropy weighting, reliability and validity checks.
-
-### Step 6: Verdict
-
-Return one of:
-
-- Proceed: strong governance problem, theory, evidence, and ethics.
-- Proceed with guardrails: promising but needs theory, stakeholder, evidence, or ethics repair.
-- Pivot: core problem is technical showpiece, not education governance research.
+- System/framework/mechanism -> `governance-paper-template`.
+- Indicator/evaluation/effectiveness -> `mixed-methods-evidence-template`.
+- Introduction drafting -> `edtech-intro-drafter` only after skeleton is stable.
 
 ## Output Format
 
 1. One-sentence positioning
 2. Fatal-flaws audit
 3. Governance value scoring table
-4. Theory anchoring recommendation
-5. Evidence route recommendation
-6. Ethics and stakeholder guardrails
-7. Verdict and next action
+4. Maturity level
+5. Theory anchoring recommendation
+6. Evidence route recommendation
+7. Ethics and stakeholder guardrails
+8. Verdict and next skill

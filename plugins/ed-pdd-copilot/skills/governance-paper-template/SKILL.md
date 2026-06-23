@@ -8,95 +8,36 @@ description: >-
 
 ## Overview
 
-Build a full logical skeleton for education informatization governance studies. This skill converts a research idea into a paper structure that balances policy context, educational or management theory, socio-technical architecture, stakeholder roles, evidence design, ethics, and practical pathways.
+Build a full logical skeleton for education informatization governance studies. Convert an idea into a paper structure that balances policy context, theory, socio-technical architecture, stakeholder roles, evidence design, ethics and practical pathways.
 
-## Paper Types
+## Reference Navigation
 
-Select one primary type:
+- Read `references/paper-types.md` to classify the manuscript.
+- Read `references/theory-to-design.md` before building mechanisms or modules.
+- Read `references/dual-topology.md` for architecture and actor-responsibility mapping.
+- Read `references/section-skeleton.md` for the manuscript outline.
+- Read `references/worked-examples.md` when the user works on smart campus or multi-Agent governance.
 
-1. Governance framework paper
-2. Smart campus or AI governance architecture paper
-3. Human-AI collaboration mechanism paper
-4. Design science research artifact paper
-5. Education data governance or indicator system paper
-6. Organizational change or leadership intervention paper
+## Core Procedure
 
-## Core Skeleton
+1. Select the paper type.
+2. Define practical demand, policy context and stakeholder pain points.
+3. Select theory anchors and derive design principles.
+4. Build the theory-mechanism-system-evidence matrix.
+5. Describe the technology-organization dual topology.
+6. Select validation route and evidence boundary.
+7. Generate practical pathways: concept transformation, mechanism reconstruction, evaluation upgrading, ethical/security regulation.
 
-### Step 1: Demand and context analysis
+## Contribution Rules
 
-Define the practical problem. Include:
-
-- Policy demand
-- School, regional, or institutional context
-- Stakeholder pain points
-- Why existing informatization approaches are insufficient
-
-### Step 2: Theoretical anchoring
-
-Require one or two anchors. Explain how they generate design principles.
-
-Common choices:
-
-- Collaborative governance
-- Socio-technical systems
-- Organizational change theory
-- Ecological systems theory
-- Activity theory
-- PDCA or continuous improvement
-- TPACK or teacher digital competence
-- Human-AI collaboration and human-in-the-loop
-- Data governance theory
-
-### Step 3: Technology-organization dual topology
-
-Describe the architecture in layers:
-
-1. Infrastructure and data acquisition layer
-2. Data governance and interoperability layer
-3. Intelligent analysis or multi-Agent coordination layer
-4. Business application and decision-support layer
-5. Human oversight, value alignment, and accountability layer
-
-Name actor responsibilities across education administration, school leaders, teachers, students, parents, and technical systems.
-
-### Step 4: Mechanism and process model
-
-Translate architecture into mechanism:
-
-- Trigger conditions
-- Data or evidence flow
-- Human-AI interaction loop
-- Decision and feedback points
-- Accountability and override rules
-- Continuous improvement cycle
-
-### Step 5: Evidence and validation
-
-Choose validation route:
-
-- Expert consultation or Delphi
-- Case study
-- Design science demonstration and evaluation
-- Mixed-methods evaluation
-- Policy text and document analysis
-- Log data plus interviews or questionnaires
-
-### Step 6: Practical pathways
-
-Provide pathways from four dimensions:
-
-1. Concept transformation
-2. Mechanism reconstruction
-3. Evaluation upgrading
-4. Ethical and security regulation
+Separate theoretical contribution, design/method contribution, practical contribution and policy implication. Do not let technical implementation substitute for educational or governance contribution.
 
 ## Output Format
 
 1. Paper type and thesis statement
 2. Thinking-template table
-3. Section-by-section outline
-4. Theory-to-design mapping
+3. Theory-mechanism-system-evidence matrix
+4. Section-by-section outline
 5. Governance architecture description
 6. Evidence and validation plan
 7. Practical pathway matrix

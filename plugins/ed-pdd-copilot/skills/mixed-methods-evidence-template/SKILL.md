@@ -8,71 +8,33 @@ description: >-
 
 ## Overview
 
-Design evidence chains for education technology and governance research. Replace single technical scores with mixed evidence that can support claims about educational value, governance effectiveness, organizational change, and human-AI collaboration.
+Design evidence chains for education technology and governance research. Replace single technical scores with mixed evidence that can support claims about educational value, governance effectiveness, organizational change and human-AI collaboration.
 
-## Step 1: Claim audit
+## Reference Navigation
 
-List each claim and classify it:
+- Read `references/claim-evidence-matrix.md` before accepting any claim.
+- Read `references/indicator-system.md` for indicator or evaluation model studies.
+- Read `references/quantitative-methods.md` for questionnaires, quasi-experiments, logs and statistics.
+- Read `references/qualitative-methods.md` for interviews, focus groups, observation and documents.
+- Read `references/triangulation.md` when integrating evidence.
 
-- Technical feasibility
-- Educational effectiveness
-- Governance efficiency
-- Organizational acceptance
-- Equity or ethics improvement
-- Teacher or student development
-- Policy or institutional fit
+## Core Procedure
 
-Each claim needs evidence of the same type. Do not use model accuracy to prove organizational effectiveness.
+1. Classify each claim.
+2. Match each claim to minimum evidence.
+3. Build indicator/theory alignment when applicable.
+4. Design quantitative evidence and reporting requirements.
+5. Design qualitative evidence and trustworthiness checks.
+6. Build triangulation matrix.
+7. Apply claim downgrade rules and ethics checks.
 
-## Step 2: Indicator and theory alignment
+## Evidence Boundary Rules
 
-If building an indicator system or evaluation model:
-
-- Name the theory anchor.
-- Derive first-level and second-level indicators from literature and theory.
-- Mark which indicators come from policy, literature coding, expert consultation, or empirical data.
-- Reject indicators that are convenient but theoretically unsupported.
-
-## Step 3: Quantitative evidence design
-
-Choose appropriate quantitative evidence:
-
-- Questionnaire with reliability and validity checks
-- Quasi-experiment or pre-post comparison
-- Learning analytics or governance process logs
-- Multimodal behavior data
-- AHP, entropy method, EFA, CFA, or regression when justified
-- System use records, response time, completion rate, or decision turnaround
-
-Name data source, sample, metric, analysis method, and limitation.
-
-## Step 4: Qualitative evidence design
-
-Choose qualitative evidence:
-
-- Semi-structured interviews
-- Focus groups
-- Classroom or governance meeting observation
-- Expert review
-- Policy and institutional document analysis
-- Open-ended questionnaire responses
-
-Explain coding strategy, trustworthiness, and how qualitative evidence explains quantitative results.
-
-## Step 5: Triangulation
-
-Build a matrix connecting:
-
-- Research question
-- Quantitative evidence
-- Qualitative evidence
-- Technical or system evidence
-- Expected convergence or tension
-- Interpretation boundary
-
-## Step 6: Ethics and data governance
-
-Check consent, anonymization, data minimization, student privacy, algorithmic fairness, human override, and institutional approval.
+- No comparison or controls: avoid strong causal claims.
+- No longitudinal data: avoid long-term transformation claims.
+- Satisfaction only: avoid learning or governance effectiveness claims.
+- Aggregate only: avoid fairness and equity claims.
+- Technical logs alone: avoid educational value claims.
 
 ## Output Format
 

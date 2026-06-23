@@ -38,3 +38,24 @@
 ## 使用提醒
 
 这些技能不是代写论文的工具，而是把教育技术学博士研究中的隐性判断显性化。研究问题、理论选择、研究设计、核心结论和学术责任必须保留在人类研究者手中。
+
+
+## Reference 支撑体系
+
+每个技能都采用“主流程 + references”的渐进披露结构：
+
+| Skill | 关键 references |
+|---|---|
+| `governance-idea-evaluator` | `rubric.md`, `fatal-flaws.md`, `theory-anchors.md`, `worked-examples.md` |
+| `edtech-intro-drafter` | `four-part-logic.md`, `paragraph-patterns.md`, `alienation-patterns.md`, `worked-examples.md` |
+| `governance-paper-template` | `paper-types.md`, `theory-to-design.md`, `dual-topology.md`, `section-skeleton.md`, `worked-examples.md` |
+| `mixed-methods-evidence-template` | `claim-evidence-matrix.md`, `indicator-system.md`, `quantitative-methods.md`, `qualitative-methods.md`, `triangulation.md` |
+| `governance-figure-designer` | `figure-types.md`, `layout-patterns.md`, `label-language.md`, `quality-audit.md` |
+| `edtech-pre-submission-reviewer` | `review-rubric.md`, `theory-policy-checklist.md`, `method-evidence-checklist.md`, `ethics-data-governance.md`, `style-anti-patterns.md` |
+| `ai-assisted-edtech-research-workflow` | `human-ai-boundary.md`, `allowed-uses.md`, `red-lines.md`, `verification-checklist.md` |
+
+## 贯穿案例
+
+仓库使用“基于多 Agent 的高校智能校园治理机制研究”作为测试案例，见 [`../../../docs/case-multi-agent-smart-campus.md`](../../../docs/case-multi-agent-smart-campus.md)。
+
+对应的 7 个技能样例输出保存在 [`../../../docs/examples/`](../../../docs/examples/)。这些样例用于检查技能之间的概念一致性、理论一致性、证据边界和伦理边界。

@@ -1,0 +1,45 @@
+flowchart LR
+    classDef policy fill:#fef9c3,stroke:#ca8a04,color:#111827
+    classDef org fill:#ecfeff,stroke:#0891b2,color:#111827
+    classDef teacher fill:#f0fdf4,stroke:#16a34a,color:#111827
+    classDef evidence fill:#eef2ff,stroke:#4f46e5,color:#111827
+    classDef risk fill:#fff7ed,stroke:#c2410c,color:#111827
+
+    policy["Policy and teacher digital literacy standard"]:::policy
+    bureau["Regional education bureau"]:::org
+    school["School leadership"]:::org
+    group["Teaching research group"]:::org
+    teacher["Teacher classroom practice"]:::teacher
+    student["Student learning support"]:::teacher
+
+    training["Professional learning design"]:::org
+    coaching["Peer coaching and lesson study"]:::org
+    artifacts["Teaching artifacts and reflection"]:::evidence
+    classroom["Classroom transfer evidence"]:::evidence
+    workload["Workload and compliance risk"]:::risk
+    equity["Equity and access risk"]:::risk
+
+    policy --> bureau
+    bureau --> school
+    school --> training
+    school --> group
+    group --> coaching
+    coaching --> teacher
+    training --> teacher
+    teacher --> student
+    teacher --> artifacts
+    teacher --> classroom
+    workload -. "must be monitored" .-> school
+    equity -. "resource support" .-> bureau
+    artifacts --> group
+    classroom --> school
+    school -. "feedback loop" .-> bureau
+
+    subgraph evidencepanel["Evidence Panel"]
+        e1["Competence is not attendance"]
+        e2["Need classroom transfer"]
+        e3["Need artifacts and reflection"]
+        e4["Need organizational support"]
+    end
+
+    classroom -. "supports" .-> evidencepanel

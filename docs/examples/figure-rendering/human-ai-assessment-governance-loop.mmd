@@ -1,0 +1,36 @@
+flowchart TB
+    classDef boundary fill:#fff7ed,stroke:#c2410c,color:#111827
+    classDef human fill:#ecfeff,stroke:#0891b2,color:#111827
+    classDef ai fill:#eef2ff,stroke:#4f46e5,color:#111827
+    classDef action fill:#f0fdf4,stroke:#16a34a,color:#111827
+
+    classroom["Classroom activity and learning evidence"]:::action
+    minimize["Data minimization and consent check"]:::boundary
+    ai["AI-assisted evidence organization"]:::ai
+    teacher["Teacher professional interpretation"]:::human
+    plc["Teaching research group peer review"]:::human
+    student["Student explanation, feedback and correction"]:::human
+    improve["Instructional improvement action"]:::action
+    monitor["Fairness, error and use-boundary monitoring"]:::boundary
+
+    classroom --> minimize
+    minimize --> ai
+    ai --> teacher
+    teacher --> plc
+    plc --> student
+    student --> improve
+    improve --> classroom
+    ai -. "not final judgment" .-> monitor
+    teacher -. "override and responsibility" .-> monitor
+    student -. "appeal route" .-> monitor
+    monitor -. "incident and bias log" .-> plc
+
+    subgraph modelcard["Model/System Card Panel"]
+        use["Intended use: formative feedback support"]
+        nonuse["Non-use: ranking, punishment, teacher appraisal"]
+        limits["Limits: context errors and subgroup bias"]
+        oversight["Oversight: teacher review and student correction"]
+        logs["Monitoring: error, fairness and adoption logs"]
+    end
+
+    ai -. "documented by" .-> modelcard

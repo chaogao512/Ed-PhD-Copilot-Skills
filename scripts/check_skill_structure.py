@@ -30,6 +30,10 @@ REQUIRED_V16_REFERENCE_HINTS = {
     "ai-assisted-edtech-research-workflow": ["venue-disclosure-templates.md"],
 }
 
+REQUIRED_V17_REFERENCE_HINTS = {
+    "governance-paper-template": ["doctoral-stage-templates.md"],
+}
+
 REQUIRED_DOCS = [
     "docs/evidence-base.md",
     "docs/literature-map-edtech-governance.md",
@@ -50,12 +54,17 @@ REQUIRED_DOCS = [
     "docs/review-2026-06-23-v1.4.md",
     "docs/review-2026-06-24-v1.5.md",
     "docs/review-2026-06-24-v1.6.md",
+    "docs/review-2026-06-24-v1.7.md",
     "docs/install-readiness-audit.md",
     "docs/install-forward-test.md",
     "docs/examples/pressure-test-digital-governance-doctoral-topic/README.md",
     "docs/examples/pressure-test-digital-governance-doctoral-topic/01-core-chain-output.md",
+    "docs/examples/pressure-test-digital-governance-doctoral-topic/02-full-seven-skill-chain-output.md",
     "docs/examples/figure-rendering/education-data-governance-mechanism.mmd",
     "docs/examples/figure-rendering/figure-qa-report.md",
+    "docs/examples/figure-rendering/human-ai-assessment-governance-loop.mmd",
+    "docs/examples/figure-rendering/teacher-digital-competence-governance.mmd",
+    "docs/examples/figure-rendering/v17-figure-qa-report.md",
     "CHANGELOG.md",
 ]
 
@@ -168,8 +177,8 @@ def main() -> int:
         coverage_text = coverage.read_text(encoding="utf-8")
         if "pending" in coverage_text.lower():
             failures.append("coverage matrix still contains pending items")
-        if "V1.6" not in coverage_text:
-            failures.append("coverage matrix does not reflect V1.6 status")
+        if "V1.7" not in coverage_text:
+            failures.append("coverage matrix does not reflect V1.7 status")
 
     inventory = ROOT / "docs" / "chinese-core-literature-inventory.md"
     if inventory.exists():
@@ -363,6 +372,38 @@ def main() -> int:
             if marker not in qa_text:
                 failures.append(f"{figure_qa.relative_to(ROOT)} lacks marker: {marker}")
 
+    full_chain = ROOT / "docs" / "examples" / "pressure-test-digital-governance-doctoral-topic" / "02-full-seven-skill-chain-output.md"
+    if full_chain.exists():
+        full_chain_text = full_chain.read_text(encoding="utf-8")
+        for marker in [
+            "Full Seven-Skill Pressure Test",
+            "governance-idea-evaluator",
+            "edtech-intro-drafter",
+            "governance-figure-designer",
+            "ai-assisted-edtech-research-workflow",
+            "Quality Self-Check",
+        ]:
+            if marker not in full_chain_text:
+                failures.append(f"{full_chain.relative_to(ROOT)} lacks marker: {marker}")
+
+    v17_qa = ROOT / "docs" / "examples" / "figure-rendering" / "v17-figure-qa-report.md"
+    if v17_qa.exists():
+        v17_qa_text = v17_qa.read_text(encoding="utf-8")
+        for marker in ["Human-AI Assessment QA", "Teacher Digital Competence QA", "Skill Feedback"]:
+            if marker not in v17_qa_text:
+                failures.append(f"{v17_qa.relative_to(ROOT)} lacks marker: {marker}")
+
+    for rel, markers in {
+        "docs/examples/figure-rendering/human-ai-assessment-governance-loop.mmd": ["Model/System Card Panel", "not final judgment", "appeal route"],
+        "docs/examples/figure-rendering/teacher-digital-competence-governance.mmd": ["Evidence Panel", "Competence is not attendance", "feedback loop"],
+    }.items():
+        path = ROOT / rel
+        if path.exists():
+            text = path.read_text(encoding="utf-8")
+            for marker in markers:
+                if marker not in text:
+                    failures.append(f"{rel} lacks marker: {marker}")
+
     for skill, refs in sorted(REQUIRED_REFERENCE_HINTS.items()):
         folder = SKILLS / skill
         skill_md = folder / "SKILL.md"
@@ -412,6 +453,21 @@ def main() -> int:
                     failures.append(f"{skill}: V1.6 references/{ref} is too thin")
                 if ref not in text:
                     failures.append(f"{skill}: V1.6 references/{ref} is not mentioned in SKILL.md")
+
+    for skill, refs in sorted(REQUIRED_V17_REFERENCE_HINTS.items()):
+        folder = SKILLS / skill
+        skill_md = folder / "SKILL.md"
+        text = skill_md.read_text(encoding="utf-8") if skill_md.exists() else ""
+        for ref in refs:
+            path = folder / "references" / ref
+            if not path.exists():
+                failures.append(f"{skill}: missing V1.7 references/{ref}")
+            else:
+                ref_text = path.read_text(encoding="utf-8").strip()
+                if len(ref_text.splitlines()) < 20:
+                    failures.append(f"{skill}: V1.7 references/{ref} is too thin")
+                if ref not in text:
+                    failures.append(f"{skill}: V1.7 references/{ref} is not mentioned in SKILL.md")
 
     if failures:
         for item in failures:

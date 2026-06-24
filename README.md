@@ -72,7 +72,7 @@ Ed-PhD-Copilot-Skills/
 
 ## 当前成熟度
 
-当前版本为 **V1.6 压力测试增强版**：
+当前版本为 **V1.7 全链路压力测试增强版**：
 
 - 7 个技能均已具备 `SKILL.md`、`agents/openai.yaml` 和 `references/` 支撑文件。
 - 已建立外部依据清单：[`docs/evidence-base.md`](docs/evidence-base.md)。
@@ -101,8 +101,12 @@ Ed-PhD-Copilot-Skills/
 - 已加入可渲染图示与图示 QA：[`docs/examples/figure-rendering/`](docs/examples/figure-rendering/)，用于验证教育数据治理图示是否呈现责任、授权、申诉纠错、数据说明和审计机制。
 - 已加入场景化 AI 使用披露模板：[`venue-disclosure-templates.md`](plugins/ed-phd-copilot/skills/ai-assisted-edtech-research-workflow/references/venue-disclosure-templates.md)，覆盖中文 CSSCI/核心期刊、博士开题/答辩、国际期刊和伦理审查场景。
 - 已完成 V1.6 阶段评审：[`docs/review-2026-06-24-v1.6.md`](docs/review-2026-06-24-v1.6.md)。
+- 已加入完整 7 技能博士选题压力测试：[`02-full-seven-skill-chain-output.md`](docs/examples/pressure-test-digital-governance-doctoral-topic/02-full-seven-skill-chain-output.md)，覆盖选题、论文、证据、引言、图示、审查和 AI 工作流。
+- 已新增人机协同评价与教师数字胜任力治理的可渲染图示 artifact，并完成 V1.7 图示 QA。
+- 已加入博士阶段模板：[`doctoral-stage-templates.md`](plugins/ed-phd-copilot/skills/governance-paper-template/references/doctoral-stage-templates.md)，覆盖开题报告、中期考核、预答辩和正式答辩。
+- 已完成 V1.7 阶段评审：[`docs/review-2026-06-24-v1.7.md`](docs/review-2026-06-24-v1.7.md)。
 
-下一阶段目标是 V1.7/V2.0：继续推进中文核心/CSSCI 期刊论文核验、安装后真实触发测试、全 7 技能博士选题压力测试，以及更多可渲染图示 artifact。具体路线见 [`docs/skill-improvement-task-list.md`](docs/skill-improvement-task-list.md)。
+下一阶段目标是 V1.8/V2.0：继续推进中文核心/CSSCI 期刊论文核验、安装后真实触发测试、博士开题报告级完整样稿和研究设计流程图。具体路线见 [`docs/skill-improvement-task-list.md`](docs/skill-improvement-task-list.md)。
 
 ## 推荐使用路径
 

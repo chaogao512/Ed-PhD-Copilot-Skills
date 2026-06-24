@@ -1,5 +1,14 @@
 # Changelog
 
+## V1.7 - 2026-06-24
+
+- Added a full seven-skill pressure test for the county education data governance doctoral topic.
+- Added renderable Mermaid artifacts for human-AI classroom assessment governance and teacher digital competence governance.
+- Added V1.7 figure QA report covering the two additional rendered artifacts.
+- Added `doctoral-stage-templates.md` for 开题报告, 中期考核, 预答辩 and 正式答辩 outputs.
+- Updated governance paper template routing, examples protocol, coverage matrix and structure checks for V1.7.
+- Added V1.7 review report.
+
 ## V1.6 - 2026-06-24
 
 - Added a real doctoral-topic pressure test for county education data governance capacity, running the core chain from idea evaluation to paper template, mixed-methods evidence design and pre-submission review.

@@ -16,6 +16,7 @@ Build a full logical skeleton for education informatization governance studies. 
 - Read `references/theory-to-design.md` before building mechanisms or modules.
 - Read `references/dual-topology.md` for architecture and actor-responsibility mapping.
 - Read `references/section-skeleton.md` for the manuscript outline.
+- Read `references/doctoral-stage-templates.md` when the user is preparing 开题报告, 中期考核, 预答辩, 正式答辩 or a doctoral dissertation chapter plan.
 - For artifact-building studies, route to `mixed-methods-evidence-template/references/design-science-reporting.md` for DSR reporting requirements.
 - Read `references/worked-examples.md` when the user works on smart campus or multi-Agent governance.
 
@@ -42,4 +43,5 @@ Separate theoretical contribution, design/method contribution, practical contrib
 5. Governance architecture description
 6. Evidence and validation plan
 7. Practical pathway matrix
-8. Risks and revisions
+8. Doctoral-stage output when relevant
+9. Risks and revisions

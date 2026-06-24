@@ -26,10 +26,22 @@
 | 18 | 教育部, 《教师数字素养》教育行业标准发布通知 | Chinese official standard notice | http://www.moe.gov.cn/srcsite/A16/s3342/202302/t20230214_1044634.html | Teacher digital literacy/competence framing and evidence design |
 | 19 | 中共中央、国务院, 《教育强国建设规划纲要（2024－2035年）》 | Chinese central policy | https://www.gov.cn/zhengce/202501/content_6999913.htm | Education strong nation, digital education and governance modernization background |
 | 20 | 国家智慧教育公共服务平台 | Chinese national platform | https://www.smartedu.cn/ | Smart education platform context; distinguish platform construction from governance capability |
+| 21 | PRISMA 2020 Statement | Reporting guideline | https://www.prisma-statement.org/prisma-2020 | Systematic review and evidence-map reporting gates |
+| 22 | EQUATOR Network, COREQ guideline | Reporting guideline | https://www.equator-network.org/reporting-guidelines/coreq/ | Interview and focus-group qualitative reporting gates |
+| 23 | CONSORT and SPIRIT reporting guideline platform | Reporting guideline | https://www.consort-spirit.org/ | Intervention and trial-reporting transparency anchors |
+| 24 | Mixed Methods Appraisal Tool (MMAT) 2018 | Method appraisal tool | http://mixedmethodsappraisaltoolpublic.pbworks.com/ | Mixed-methods appraisal, integration and evidence-quality checks |
+| 25 | ICMJE Recommendations | Publication ethics guidance | https://www.icmje.org/icmje-recommendations.pdf | AI-assisted technology disclosure, authorship responsibility and manuscript integrity |
+| 26 | Nature Portfolio AI editorial policy | Publisher policy | https://www.nature.com/nature-portfolio/editorial-policies/ai | Generative AI authorship prohibition, method disclosure and image/data restrictions |
+| 27 | Elsevier policies for authors on generative AI | Publisher policy | https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals | AI-assisted writing disclosure, author responsibility and confidentiality boundaries |
+| 28 | Mitchell et al., Model Cards for Model Reporting | AI transparency research | https://arxiv.org/abs/1810.03993 | Model/system card panels for education AI figures |
+| 29 | Gebru et al., Datasheets for Datasets | Dataset documentation research | https://arxiv.org/abs/1803.09010 | Dataset datasheet panels for education data governance figures |
+| 30 | Wiley, Best Practice Guidelines on Research Integrity and Publishing Ethics | Publisher policy | https://authorservices.wiley.com/ethics-guidelines/index.html | Publisher-facing AI disclosure, author responsibility and research-integrity alignment |
 
 ## Candidate Sources Not Used as Formal Citations
 
 The entries in `docs/chinese-core-literature-inventory.md` marked `needs_cnki_verification` or `local_plan_reference` are used only as search targets and pattern prompts. They should not be cited in academic outputs until exact bibliographic metadata are verified.
+
+See also `docs/chinese-literature-web-verification-log.md` for public-web verification attempts and non-promotion decisions.
 
 ## Rule for Future Edits
 
@@ -56,3 +68,19 @@ When adding a source-based rule to a skill:
 - Chinese official sources 17-20 were verified through direct URL access, page title/H1 checks and keyword checks.
 - These sources may support policy framing, standard alignment and platform-context rules.
 - They are not substitutes for Chinese CSSCI/core-journal academic literature; journal articles still require CNKI, journal-site, DOI or local-PDF verification.
+
+## V1.5 Source-Use Notes
+
+- Reporting and appraisal sources 21-24 strengthen method transparency rather than adding topic claims.
+- PRISMA is used to prevent unsystematic literature scans from being described as systematic reviews.
+- COREQ is used to require reflexivity, sampling, protocol, coding and quotation evidence for interview/focus-group claims.
+- CONSORT/SPIRIT and WWC-style boundaries are used together to restrict causal language in education intervention studies.
+- MMAT is used as a mixed-methods quality lens: integration must be explicit, not a parallel list of quantitative and qualitative findings.
+- ICMJE, Nature Portfolio and Elsevier AI policies are used to encode AI authorship, disclosure, accountability and confidentiality rules for AI-assisted research workflows.
+- Model Cards and Datasheets for Datasets are used as transparency patterns for figure design, not as direct empirical evidence about education outcomes.
+
+## V1.6 Source-Use Notes
+
+- Wiley's publishing-ethics guidance is used as an additional venue-policy anchor for AI disclosure templates.
+- V1.6 does not treat publisher policy pages as method evidence; they only support disclosure, responsibility and confidentiality wording.
+- The pressure-test and figure-rendering artifacts use already verified policy/method sources and do not promote unverified Chinese journal candidates.

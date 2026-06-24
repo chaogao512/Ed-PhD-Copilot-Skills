@@ -1,14 +1,14 @@
-# Ed-PdD-Copilot-Skills 逐步完善任务清单
+# Ed-PhD-Copilot-Skills 逐步完善任务清单
 
 > 生成日期：2026-06-23  
-> 适用项目：`Ed-PdD-Copilot-Skills`  
+> 适用项目：`Ed-PhD-Copilot-Skills`
 > 参照基准：`Supervisor-Skills` 的完整度、分层结构、参考材料体系、评分规则、示例输出、反例库和可执行检查机制。  
 > 三个优先级：补齐 `references/` 支撑体系、强化核心技能、建立贯穿式真实样例。  
 > 当前基线：项目已进入 V1.0 安装前可用状态；本清单用于下一轮持续完善、验证和学术化加固。
 
 ## 一、总体目标
 
-将 `Ed-PdD-Copilot-Skills` 从“可安装、可使用的教育信息化治理方向技能库”进一步提升为“可长期迭代、可复核、可迁移到真实博士研究任务中的专业技能体系”。
+将 `Ed-PhD-Copilot-Skills` 从“可安装、可使用的教育信息化治理方向技能库”进一步提升为“可长期迭代、可复核、可迁移到真实博士研究任务中的专业技能体系”。
 
 具体目标包括：
 
@@ -69,11 +69,11 @@
 
 - **目标**：让使用者和后续维护者知道每个 reference 的作用、读取时机和适用任务。
 - **实施路径**：
-  - 在 `plugins/ed-pdd-copilot/skills/README.md` 中增加 references 导航表。
+  - 在 `plugins/ed-phd-copilot/skills/README.md` 中增加 references 导航表。
   - 为 7 个技能分别列出“必读 reference”和“按任务读取 reference”。
   - 标注每个 reference 属于评分规则、方法模板、写作模板、伦理规则、失败案例还是示例输出。
 - **产物路径**：
-  - `plugins/ed-pdd-copilot/skills/README.md`
+  - `plugins/ed-phd-copilot/skills/README.md`
   - `docs/skill-coverage-matrix.md`
 - **验收标准**：
   - 用户不打开具体技能文件，也能知道每个技能有哪些支撑材料。
@@ -88,10 +88,10 @@
   - 扩展 `references/theory-anchors.md`，补充教育领导力、组织学习、制度理论、技术采纳、数据治理、算法治理等理论锚点。
   - 在 `references/worked-examples.md` 中增加至少 3 个不同质量层级的选题：高潜力选题、需重构选题、应放弃或转向选题。
 - **产物路径**：
-  - `plugins/ed-pdd-copilot/skills/governance-idea-evaluator/references/rubric.md`
-  - `plugins/ed-pdd-copilot/skills/governance-idea-evaluator/references/fatal-flaws.md`
-  - `plugins/ed-pdd-copilot/skills/governance-idea-evaluator/references/theory-anchors.md`
-  - `plugins/ed-pdd-copilot/skills/governance-idea-evaluator/references/worked-examples.md`
+  - `plugins/ed-phd-copilot/skills/governance-idea-evaluator/references/rubric.md`
+  - `plugins/ed-phd-copilot/skills/governance-idea-evaluator/references/fatal-flaws.md`
+  - `plugins/ed-phd-copilot/skills/governance-idea-evaluator/references/theory-anchors.md`
+  - `plugins/ed-phd-copilot/skills/governance-idea-evaluator/references/worked-examples.md`
 - **验收标准**：
   - 输入一个博士选题后，技能能输出评分、短板、红线风险、修改路径和下一步路由。
   - 出现伦理不可控、证据错配、理论真空、技术先行无治理问题时，能明确建议 `Pivot`。
@@ -105,10 +105,10 @@
   - 扩展 `references/alienation-patterns.md`，补充数字形式主义、平台依赖、数据孤岛、算法不透明、教师负担转移、学生数据权益风险等问题模式。
   - 增加不同论文类型的引言样例：政策分析类、机制构建类、实证研究类、设计科学类。
 - **产物路径**：
-  - `plugins/ed-pdd-copilot/skills/edtech-intro-drafter/references/four-part-logic.md`
-  - `plugins/ed-pdd-copilot/skills/edtech-intro-drafter/references/paragraph-patterns.md`
-  - `plugins/ed-pdd-copilot/skills/edtech-intro-drafter/references/alienation-patterns.md`
-  - `plugins/ed-pdd-copilot/skills/edtech-intro-drafter/references/worked-examples.md`
+  - `plugins/ed-phd-copilot/skills/edtech-intro-drafter/references/four-part-logic.md`
+  - `plugins/ed-phd-copilot/skills/edtech-intro-drafter/references/paragraph-patterns.md`
+  - `plugins/ed-phd-copilot/skills/edtech-intro-drafter/references/alienation-patterns.md`
+  - `plugins/ed-phd-copilot/skills/edtech-intro-drafter/references/worked-examples.md`
 - **验收标准**：
   - 每段引言都能说明其学术功能、核心论点和证据需求。
   - 输出能够直接扩写为 CSSCI 或博士论文开题报告中的研究背景部分。
@@ -123,11 +123,11 @@
   - 细化 `references/section-skeleton.md`，提供博士论文、期刊论文、开题报告三种结构版本。
   - 增加“贡献声明”模板，区分理论贡献、方法贡献、实践贡献和政策启示。
 - **产物路径**：
-  - `plugins/ed-pdd-copilot/skills/governance-paper-template/references/paper-types.md`
-  - `plugins/ed-pdd-copilot/skills/governance-paper-template/references/theory-to-design.md`
-  - `plugins/ed-pdd-copilot/skills/governance-paper-template/references/dual-topology.md`
-  - `plugins/ed-pdd-copilot/skills/governance-paper-template/references/section-skeleton.md`
-  - `plugins/ed-pdd-copilot/skills/governance-paper-template/references/worked-examples.md`
+  - `plugins/ed-phd-copilot/skills/governance-paper-template/references/paper-types.md`
+  - `plugins/ed-phd-copilot/skills/governance-paper-template/references/theory-to-design.md`
+  - `plugins/ed-phd-copilot/skills/governance-paper-template/references/dual-topology.md`
+  - `plugins/ed-phd-copilot/skills/governance-paper-template/references/section-skeleton.md`
+  - `plugins/ed-phd-copilot/skills/governance-paper-template/references/worked-examples.md`
 - **验收标准**：
   - 用户给出一个研究设想后，技能能输出论文类型判断、章节结构、理论-机制-系统-证据矩阵。
   - 每个章节都有功能说明、关键论点、所需证据和常见风险。
@@ -143,12 +143,12 @@
   - 扩展 `references/triangulation.md`，形成“研究问题 -> 量化证据 -> 质性证据 -> 系统证据 -> 结论边界”模板。
   - 增加 `references/method-reporting-templates.md` 的填充样例。
 - **产物路径**：
-  - `plugins/ed-pdd-copilot/skills/mixed-methods-evidence-template/references/claim-evidence-matrix.md`
-  - `plugins/ed-pdd-copilot/skills/mixed-methods-evidence-template/references/indicator-system.md`
-  - `plugins/ed-pdd-copilot/skills/mixed-methods-evidence-template/references/quantitative-methods.md`
-  - `plugins/ed-pdd-copilot/skills/mixed-methods-evidence-template/references/qualitative-methods.md`
-  - `plugins/ed-pdd-copilot/skills/mixed-methods-evidence-template/references/triangulation.md`
-  - `plugins/ed-pdd-copilot/skills/mixed-methods-evidence-template/references/method-reporting-templates.md`
+  - `plugins/ed-phd-copilot/skills/mixed-methods-evidence-template/references/claim-evidence-matrix.md`
+  - `plugins/ed-phd-copilot/skills/mixed-methods-evidence-template/references/indicator-system.md`
+  - `plugins/ed-phd-copilot/skills/mixed-methods-evidence-template/references/quantitative-methods.md`
+  - `plugins/ed-phd-copilot/skills/mixed-methods-evidence-template/references/qualitative-methods.md`
+  - `plugins/ed-phd-copilot/skills/mixed-methods-evidence-template/references/triangulation.md`
+  - `plugins/ed-phd-copilot/skills/mixed-methods-evidence-template/references/method-reporting-templates.md`
 - **验收标准**：
   - 技能能识别“用模型准确率证明教育治理效果”“用满意度证明学习成效”“无对照组声称因果效果”等证据错配。
   - 技能能明确哪些结论需要降级、补证据或重设研究设计。
@@ -162,10 +162,10 @@
   - 扩展 `references/label-language.md`，把工程化表达转换为教育治理表达。
   - 扩展 `references/quality-audit.md`，加入图题、图注、变量命名、责任边界、人类监督、数据流向和反馈机制审查。
 - **产物路径**：
-  - `plugins/ed-pdd-copilot/skills/governance-figure-designer/references/figure-types.md`
-  - `plugins/ed-pdd-copilot/skills/governance-figure-designer/references/layout-patterns.md`
-  - `plugins/ed-pdd-copilot/skills/governance-figure-designer/references/label-language.md`
-  - `plugins/ed-pdd-copilot/skills/governance-figure-designer/references/quality-audit.md`
+  - `plugins/ed-phd-copilot/skills/governance-figure-designer/references/figure-types.md`
+  - `plugins/ed-phd-copilot/skills/governance-figure-designer/references/layout-patterns.md`
+  - `plugins/ed-phd-copilot/skills/governance-figure-designer/references/label-language.md`
+  - `plugins/ed-phd-copilot/skills/governance-figure-designer/references/quality-audit.md`
 - **验收标准**：
   - 用户描述图意后，技能能输出可交给 PPT、Figma 或绘图工具执行的布局说明。
   - 图示建议必须体现主体、责任、数据、技术、制度和反馈机制。
@@ -180,11 +180,11 @@
   - 扩展 `references/ethics-data-governance.md`，检查知情同意、数据脱敏、学生隐私、算法公平、人类复核。
   - 扩展 `references/style-anti-patterns.md`，列出 AI 腔、技术崇拜、过度赋能、结论越界、中文学术表达松散等问题。
 - **产物路径**：
-  - `plugins/ed-pdd-copilot/skills/edtech-pre-submission-reviewer/references/review-rubric.md`
-  - `plugins/ed-pdd-copilot/skills/edtech-pre-submission-reviewer/references/theory-policy-checklist.md`
-  - `plugins/ed-pdd-copilot/skills/edtech-pre-submission-reviewer/references/method-evidence-checklist.md`
-  - `plugins/ed-pdd-copilot/skills/edtech-pre-submission-reviewer/references/ethics-data-governance.md`
-  - `plugins/ed-pdd-copilot/skills/edtech-pre-submission-reviewer/references/style-anti-patterns.md`
+  - `plugins/ed-phd-copilot/skills/edtech-pre-submission-reviewer/references/review-rubric.md`
+  - `plugins/ed-phd-copilot/skills/edtech-pre-submission-reviewer/references/theory-policy-checklist.md`
+  - `plugins/ed-phd-copilot/skills/edtech-pre-submission-reviewer/references/method-evidence-checklist.md`
+  - `plugins/ed-phd-copilot/skills/edtech-pre-submission-reviewer/references/ethics-data-governance.md`
+  - `plugins/ed-phd-copilot/skills/edtech-pre-submission-reviewer/references/style-anti-patterns.md`
 - **验收标准**：
   - 审查输出按严重性排序。
   - 每条问题都包含定位、问题原因、修改建议和 72 小时内可执行动作。
@@ -198,10 +198,10 @@
   - 扩展 `references/red-lines.md`，列出伪造引用、伪造数据、替代核心判断、隐藏 AI 使用、泄露敏感数据等红线。
   - 扩展 `references/verification-checklist.md`，要求每次 AI 产出进行来源、证据、引用、方法和伦理验证。
 - **产物路径**：
-  - `plugins/ed-pdd-copilot/skills/ai-assisted-edtech-research-workflow/references/human-ai-boundary.md`
-  - `plugins/ed-pdd-copilot/skills/ai-assisted-edtech-research-workflow/references/allowed-uses.md`
-  - `plugins/ed-pdd-copilot/skills/ai-assisted-edtech-research-workflow/references/red-lines.md`
-  - `plugins/ed-pdd-copilot/skills/ai-assisted-edtech-research-workflow/references/verification-checklist.md`
+  - `plugins/ed-phd-copilot/skills/ai-assisted-edtech-research-workflow/references/human-ai-boundary.md`
+  - `plugins/ed-phd-copilot/skills/ai-assisted-edtech-research-workflow/references/allowed-uses.md`
+  - `plugins/ed-phd-copilot/skills/ai-assisted-edtech-research-workflow/references/red-lines.md`
+  - `plugins/ed-phd-copilot/skills/ai-assisted-edtech-research-workflow/references/verification-checklist.md`
 - **验收标准**：
   - 技能能输出清晰的人机分工表。
   - 面对不合规请求时，技能能警示、拒绝或改写为合规路径。
@@ -218,9 +218,9 @@
   - 增加下一步路由：进入论文模板、证据设计、引言起草、AI 辅助研究流程或建议回到选题重构。
   - 建立“选题重构模板”，把低质量选题改写为治理问题导向选题。
 - **产物路径**：
-  - `plugins/ed-pdd-copilot/skills/governance-idea-evaluator/SKILL.md`
-  - `plugins/ed-pdd-copilot/skills/governance-idea-evaluator/references/rubric.md`
-  - `plugins/ed-pdd-copilot/skills/governance-idea-evaluator/references/fatal-flaws.md`
+  - `plugins/ed-phd-copilot/skills/governance-idea-evaluator/SKILL.md`
+  - `plugins/ed-phd-copilot/skills/governance-idea-evaluator/references/rubric.md`
+  - `plugins/ed-phd-copilot/skills/governance-idea-evaluator/references/fatal-flaws.md`
   - `docs/examples/failure-cases/`
 - **验收标准**：
   - 同一选题多次执行，结论稳定。
@@ -236,10 +236,10 @@
   - 增加“实践进路生成规则”：观念更新、机制重塑、评价升级、伦理规约四维必须与前文问题对应。
   - 增加“博士论文拓展路径”：把一篇论文型结构扩展为博士论文的章节群。
 - **产物路径**：
-  - `plugins/ed-pdd-copilot/skills/governance-paper-template/SKILL.md`
-  - `plugins/ed-pdd-copilot/skills/governance-paper-template/references/paper-types.md`
-  - `plugins/ed-pdd-copilot/skills/governance-paper-template/references/section-skeleton.md`
-  - `plugins/ed-pdd-copilot/skills/governance-paper-template/references/theory-to-design.md`
+  - `plugins/ed-phd-copilot/skills/governance-paper-template/SKILL.md`
+  - `plugins/ed-phd-copilot/skills/governance-paper-template/references/paper-types.md`
+  - `plugins/ed-phd-copilot/skills/governance-paper-template/references/section-skeleton.md`
+  - `plugins/ed-phd-copilot/skills/governance-paper-template/references/theory-to-design.md`
 - **验收标准**：
   - 输出的论文骨架能直接用于开题报告或论文大纲。
   - 每个章节都能说明其功能、论点、证据和与总问题的关系。
@@ -254,10 +254,10 @@
   - 增加伦理审查前置步骤。
   - 增加对“教育治理效果”的多源证据要求，例如制度变化、行为变化、流程变化、组织协同变化、数据质量变化。
 - **产物路径**：
-  - `plugins/ed-pdd-copilot/skills/mixed-methods-evidence-template/SKILL.md`
-  - `plugins/ed-pdd-copilot/skills/mixed-methods-evidence-template/references/claim-evidence-matrix.md`
-  - `plugins/ed-pdd-copilot/skills/mixed-methods-evidence-template/references/triangulation.md`
-  - `plugins/ed-pdd-copilot/skills/mixed-methods-evidence-template/references/method-reporting-templates.md`
+  - `plugins/ed-phd-copilot/skills/mixed-methods-evidence-template/SKILL.md`
+  - `plugins/ed-phd-copilot/skills/mixed-methods-evidence-template/references/claim-evidence-matrix.md`
+  - `plugins/ed-phd-copilot/skills/mixed-methods-evidence-template/references/triangulation.md`
+  - `plugins/ed-phd-copilot/skills/mixed-methods-evidence-template/references/method-reporting-templates.md`
 - **验收标准**：
   - 技能能把研究问题转化为可执行的数据收集和分析方案。
   - 技能能指出当前证据不能支持哪些结论。
@@ -271,9 +271,9 @@
   - 在 `mixed-methods-evidence-template` 输出中加入 `Paper Section Impact` 字段。
   - 在 3 个技能的 `SKILL.md` 中统一这些字段名称。
 - **产物路径**：
-  - `plugins/ed-pdd-copilot/skills/governance-idea-evaluator/SKILL.md`
-  - `plugins/ed-pdd-copilot/skills/governance-paper-template/SKILL.md`
-  - `plugins/ed-pdd-copilot/skills/mixed-methods-evidence-template/SKILL.md`
+  - `plugins/ed-phd-copilot/skills/governance-idea-evaluator/SKILL.md`
+  - `plugins/ed-phd-copilot/skills/governance-paper-template/SKILL.md`
+  - `plugins/ed-phd-copilot/skills/mixed-methods-evidence-template/SKILL.md`
   - `docs/examples/`
 - **验收标准**：
   - 同一研究主题可以自然完成“选题评估 -> 论文骨架 -> 证据设计”的连续输出。

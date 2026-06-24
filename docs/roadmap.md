@@ -4,7 +4,7 @@
 
 - 建立独立 Git 仓库。
 - 编写项目定位 README。
-- 搭建 `handbook/` 与 `plugins/ed-pdd-copilot/skills/` 目录骨架。
+- 搭建 `handbook/` 与 `plugins/ed-phd-copilot/skills/` 目录骨架。
 - 将主许可证调整为 CC BY-NC-SA 4.0，以兼容 `Supervisor-Skills` 的改编要求。
 
 ## Phase 2: 框架迁移与方向适配

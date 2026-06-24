@@ -1,6 +1,6 @@
 # Evidence Base for Skill Refinement
 
-This file records the external materials used to refine `Ed-PdD-Copilot-Skills`. It is not a literature review. It is a traceability map from authoritative sources to reusable skill rules.
+This file records the external materials used to refine `Ed-PhD-Copilot-Skills`. It is not a literature review. It is a traceability map from authoritative sources to reusable skill rules.
 
 ## Policy and AI Governance Sources
 
@@ -17,6 +17,16 @@ This file records the external materials used to refine `Ed-PdD-Copilot-Skills`.
 | UNESCO, Recommendation on the Ethics of Artificial Intelligence | https://www.unesco.org/en/artificial-intelligence/recommendation-ethics | AI ethics, accountability, transparency, human rights and fairness framing |
 | Education Endowment Foundation, *Effective Professional Development* | https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/effective-professional-development | Teacher professional development mechanisms, implementation and evidence for teacher learning |
 | What Works Clearinghouse Standards Handbook | https://ies.ed.gov/ncee/wwc/Handbooks | Evidence standards for education interventions and causal claim boundaries |
+| PRISMA 2020 Statement | https://www.prisma-statement.org/prisma-2020 | Systematic review, scoping review and evidence-map search/screening/reporting rules |
+| EQUATOR Network, COREQ guideline | https://www.equator-network.org/reporting-guidelines/coreq/ | Interview and focus-group reporting, reflexivity, sampling, coding and quotations |
+| CONSORT and SPIRIT reporting guideline platform | https://www.consort-spirit.org/ | Intervention and trial-reporting transparency, participant flow and protocol logic |
+| Mixed Methods Appraisal Tool (MMAT) 2018 | http://mixedmethodsappraisaltoolpublic.pbworks.com/ | Mixed-methods appraisal, integration quality and method-quality screening |
+| ICMJE Recommendations | https://www.icmje.org/icmje-recommendations.pdf | AI-assisted technology disclosure, authorship responsibility and integrity checks |
+| Nature Portfolio AI editorial policy | https://www.nature.com/nature-portfolio/editorial-policies/ai | AI authorship prohibition, method disclosure, data/image and confidentiality boundaries |
+| Elsevier generative AI policies for journals | https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals | AI-assisted writing disclosure, author responsibility and confidentiality rules |
+| Wiley, Best Practice Guidelines on Research Integrity and Publishing Ethics | https://authorservices.wiley.com/ethics-guidelines/index.html | Publisher-facing AI disclosure, author accountability and research-integrity alignment |
+| Mitchell et al., Model Cards for Model Reporting | https://arxiv.org/abs/1810.03993 | Model/system card panels: intended use, limitations, non-use boundaries and evaluation |
+| Gebru et al., Datasheets for Datasets | https://arxiv.org/abs/1803.09010 | Dataset documentation panels: motivation, composition, collection, uses, distribution and maintenance |
 | 教育部, 《教育信息化2.0行动计划》通知 | http://www.moe.gov.cn/srcsite/A16/s3342/201804/t20180425_334188.html | Chinese education informatization policy background and digital governance requirements |
 | 教育部, 《教师数字素养》教育行业标准发布通知 | http://www.moe.gov.cn/srcsite/A16/s3342/202302/t20230214_1044634.html | Teacher digital literacy/competence standard alignment |
 | 中共中央、国务院, 《教育强国建设规划纲要（2024－2035年）》 | https://www.gov.cn/zhengce/202501/content_6999913.htm | Education strong nation, digital education and governance modernization framing |
@@ -38,6 +48,7 @@ This file records the external materials used to refine `Ed-PdD-Copilot-Skills`.
 | `docs/paper-template-adaptation-plan.md` | Local project document | Introduction logic, paper template adaptation, figure design and mixed-methods evidence logic |
 | `docs/literature-map-edtech-governance.md` | Local project document | Working map of EdTech governance literature themes, policy anchors, method sources and translation into skill patterns |
 | `docs/chinese-core-literature-inventory.md` | Local project document | Traceable inventory of policy sources, local plan references, method sources and Chinese EdTech literature search targets |
+| `docs/chinese-literature-web-verification-log.md` | Local project document | Public-web verification attempts, failed-promotion decisions and Chinese citation integrity rules |
 | `docs/verified-source-registry.md` | Local project document | Separates currently verified usable sources from candidate sources requiring CNKI or journal-site verification |
 
 ## Translation Into Skill Rules
@@ -130,3 +141,50 @@ This file records the external materials used to refine `Ed-PdD-Copilot-Skills`.
 | Teacher digital literacy standard | Teacher digital competence claims need standard-aligned dimensions and classroom-transfer evidence |
 | Education strong nation plan | Digital education should be framed as governance modernization and quality development, not tool adoption alone |
 | National smart education platform | Platform construction is context, not proof of governance capability |
+
+## V1.5 Additions
+
+- Added reporting-standard gates for systematic reviews, qualitative interviews/focus groups, intervention evaluations, mixed-methods integration and education AI risk reporting.
+- Strengthened claim-evidence downgrade rules so convenience literature scans, model accuracy, satisfaction surveys and dashboards cannot carry stronger academic conclusions than their evidence permits.
+- Added lifecycle data/AI governance audit rules for high-risk education AI scenarios.
+
+## V1.5 Rule Translation
+
+| Source pattern | Skill rule |
+|---|---|
+| PRISMA 2020 | Do not use systematic-review language without reproducible search, screening, inclusion/exclusion and appraisal records |
+| COREQ | Qualitative mechanism claims require researcher reflexivity, sampling, protocol, coding and quote-supported themes |
+| CONSORT/SPIRIT + WWC-style evidence boundaries | Causal or effectiveness claims require transparent design, comparison/baseline, attrition, valid outcomes and fidelity evidence |
+| MMAT | Mixed-methods claims require explicit integration, not side-by-side method listing |
+| NIST AI RMF / EU AI Act / OECD AI Principles | High-risk education AI requires context mapping, risk measurement, human oversight, transparency, appeal and lifecycle monitoring |
+| ICMJE / Nature / Elsevier AI policies | AI cannot be an author; material AI use should be disclosed according to venue rules; humans remain responsible for accuracy, citations, data and final claims |
+| Model Cards / Datasheets for Datasets | High-risk education AI figures should include model/system-card and dataset-card panels rather than black-box model/data labels |
+
+## V1.5 Chinese Literature Verification Addendum
+
+- A public-web verification pass for selected Chinese EdTech literature candidates was recorded in `docs/chinese-literature-web-verification-log.md`.
+- No new Chinese core/CSSCI article was promoted because public search results did not provide sufficiently stable complete metadata.
+- Skills were strengthened to treat search snippets and AI-generated bibliographies as candidate leads only, not formal citations.
+
+| Verification pattern | Skill rule |
+|---|---|
+| Complete metadata from CNKI/journal/DOI/local PDF/school export | May move into verified registry and support manuscript claims |
+| Public search snippet only | Keep as candidate; do not cite formally |
+| AI-generated reference | CRITICAL integrity failure |
+| Chinese policy source | Usable for policy context but not a substitute for academic literature |
+
+## V1.6 Additions
+
+- Added a doctoral-topic pressure test for county education data governance capacity.
+- Added a renderable Mermaid figure artifact and figure QA report for education data governance.
+- Added venue-specific AI disclosure templates for Chinese journal submission, doctoral defense, international journal submission and ethics review.
+- Added Wiley publishing-ethics guidance as an additional publisher-policy anchor for disclosure and accountability wording.
+
+## V1.6 Rule Translation
+
+| Source pattern | Skill rule |
+|---|---|
+| Real doctoral-topic pressure testing | Core skill chains must preserve the same governance object across evaluation, paper design, evidence planning and review |
+| Renderable figure artifact | Figure guidance should be testable as an actual diagram, not only a textual sketch |
+| Venue disclosure policies | AI disclosure must be adapted to the user's target venue and must state human responsibility, verification and confidentiality boundaries |
+| Publisher policy convergence | When ICMJE, Nature, Elsevier and Wiley converge on disclosure/accountability principles, the AI workflow should treat them as default minimum rules |

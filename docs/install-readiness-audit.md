@@ -2,13 +2,13 @@
 
 ## Scope
 
-This audit checks whether `Ed-PdD-Copilot-Skills` is ready to be used as a local skill repository before installation.
+This audit checks whether `Ed-PhD-Copilot-Skills` is ready to be used as a local skill repository before installation.
 
 ## Evidence
 
 | Requirement | Evidence | Status |
 |---|---|---|
-| Seven skills exist | `plugins/ed-pdd-copilot/skills/*/SKILL.md` | PASS |
+| Seven skills exist | `plugins/ed-phd-copilot/skills/*/SKILL.md` | PASS |
 | Each skill has UI metadata | `agents/openai.yaml` under each skill | PASS |
 | Each skill has references | `references/` under each skill | PASS |
 | Core skills have rubrics or method templates | `rubric.md`, `claim-evidence-matrix.md`, `method-reporting-templates.md`, `design-science-reporting.md` | PASS |

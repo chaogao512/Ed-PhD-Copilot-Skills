@@ -1,6 +1,6 @@
 # Literature Map: EdTech Governance and Human-AI Education Research
 
-> Purpose: translate searched policy, governance and research-method materials into skill design patterns. This map is not a complete systematic review; it is a working evidence map for improving `Ed-PdD-Copilot-Skills`.
+> Purpose: translate searched policy, governance and research-method materials into skill design patterns. This map is not a complete systematic review; it is a working evidence map for improving `Ed-PhD-Copilot-Skills`.
 
 ## 1. Policy and Governance Anchors
 

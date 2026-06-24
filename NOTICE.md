@@ -6,7 +6,7 @@ This project is an education-technology and education-governance adaptation proj
 - Repository: https://github.com/HKUSTDial/Supervisor-Skills
 - Original license: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 
-`Ed-PdD-Copilot-Skills` borrows the high-level idea of organizing research guidance as a dual-track "Handbook + Skills" repository and adapts that idea for educational technology, educational leadership and management, and education informatization governance.
+`Ed-PhD-Copilot-Skills` borrows the high-level idea of organizing research guidance as a dual-track "Handbook + Skills" repository and adapts that idea for educational technology, educational leadership and management, and education informatization governance.
 
 The current project rewrites the skill content for the following direction:
 

@@ -1,4 +1,4 @@
-# Ed-PdD-Copilot-Skills
+# Ed-PhD-Copilot-Skills
 
 面向教育技术领域、教育领导与管理专业、教育信息化治理方向的 AI Skills 项目。
 
@@ -6,7 +6,7 @@
 
 ## 项目定位
 
-`Ed-PdD-Copilot-Skills` 不是通用科研写作提示词集合，而是面向教育技术与教育治理交叉研究的结构化技能库。它帮助研究者在以下场景中获得更稳定的 AI 辅助：
+`Ed-PhD-Copilot-Skills` 不是通用科研写作提示词集合，而是面向教育技术与教育治理交叉研究的结构化技能库。它帮助研究者在以下场景中获得更稳定的 AI 辅助：
 
 - 教育信息化治理方向选题判断与问题诊断
 - 教育数字化转型、智能校园、教育数据治理、AI 教育治理等议题的研究设计
@@ -33,7 +33,7 @@
 ## 目录结构
 
 ```text
-Ed-PdD-Copilot-Skills/
+Ed-PhD-Copilot-Skills/
 ├── README.md
 ├── LICENSE
 ├── docs/
@@ -43,7 +43,7 @@ Ed-PdD-Copilot-Skills/
 ├── handbook/
 │   └── README.md
 ├── plugins/
-│   └── ed-pdd-copilot/
+│   └── ed-phd-copilot/
 │       └── skills/
 │           ├── README.md
 │           ├── governance-idea-evaluator/
@@ -72,7 +72,7 @@ Ed-PdD-Copilot-Skills/
 
 ## 当前成熟度
 
-当前版本为 **V1.0 安装前可用版**：
+当前版本为 **V1.6 压力测试增强版**：
 
 - 7 个技能均已具备 `SKILL.md`、`agents/openai.yaml` 和 `references/` 支撑文件。
 - 已建立外部依据清单：[`docs/evidence-base.md`](docs/evidence-base.md)。
@@ -91,8 +91,18 @@ Ed-PdD-Copilot-Skills/
 - 已完成 V1.2 阶段评审：[`docs/review-2026-06-23-v1.2.md`](docs/review-2026-06-23-v1.2.md)。
 - 已完成安装前向模拟测试：[`docs/install-forward-test.md`](docs/install-forward-test.md)。
 - 已完成 V1.4 中文政策证据增强评审：[`docs/review-2026-06-23-v1.4.md`](docs/review-2026-06-23-v1.4.md)。
+- 已加入 V1.5 方法透明度规则：PRISMA、COREQ、CONSORT/SPIRIT、MMAT 与 WWC 风格证据边界，用于系统综述、访谈/焦点小组、干预研究、混合方法和高风险教育 AI 审查。
+- 已为混合方法证据设计与投稿前审查加入 `Light / Standard / Strict` 强度分层，兼顾早期选题探索、开题规划和投稿前严格审查。
+- 已新增中文文献公开网络核验日志：[`docs/chinese-literature-web-verification-log.md`](docs/chinese-literature-web-verification-log.md)，明确搜索片段和 AI 生成题录不得升级为正式引用。
+- 已补强 AI 辅助研究披露、作者责任和保密边界：AI 不能署名，实质性 AI 使用应按学校/期刊要求披露，敏感教育数据和未发表材料不得未经授权上传外部 AI。
+- 已补强图示与引言的高风险 AI 边界：图示需显示模型/系统说明卡、数据说明卡、风险台账和责任泳道；引言需区分探索性文献扫描、系统综述和可支持的证据边界。
+- 已完成 V1.5 阶段评审：[`docs/review-2026-06-24-v1.5.md`](docs/review-2026-06-24-v1.5.md)。
+- 已加入真实博士选题压力测试：[`docs/examples/pressure-test-digital-governance-doctoral-topic/`](docs/examples/pressure-test-digital-governance-doctoral-topic/)，检验“选题评估 -> 论文模板 -> 证据设计 -> 投稿前审查”的核心链路是否保持同一治理对象和证据边界。
+- 已加入可渲染图示与图示 QA：[`docs/examples/figure-rendering/`](docs/examples/figure-rendering/)，用于验证教育数据治理图示是否呈现责任、授权、申诉纠错、数据说明和审计机制。
+- 已加入场景化 AI 使用披露模板：[`venue-disclosure-templates.md`](plugins/ed-phd-copilot/skills/ai-assisted-edtech-research-workflow/references/venue-disclosure-templates.md)，覆盖中文 CSSCI/核心期刊、博士开题/答辩、国际期刊和伦理审查场景。
+- 已完成 V1.6 阶段评审：[`docs/review-2026-06-24-v1.6.md`](docs/review-2026-06-24-v1.6.md)。
 
-下一阶段目标是 V1.5：继续推进中文核心/CSSCI 期刊论文核验、真实安装后触发测试和真实博士选题压力测试。具体路线见 [`docs/skill-improvement-task-list.md`](docs/skill-improvement-task-list.md)。
+下一阶段目标是 V1.7/V2.0：继续推进中文核心/CSSCI 期刊论文核验、安装后真实触发测试、全 7 技能博士选题压力测试，以及更多可渲染图示 artifact。具体路线见 [`docs/skill-improvement-task-list.md`](docs/skill-improvement-task-list.md)。
 
 ## 推荐使用路径
 

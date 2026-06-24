@@ -48,3 +48,13 @@
 ## Verification checklist
 
 所有政策、理论和方法引用都必须回到原文核验；所有结论必须能追溯到计划中的证据来源。
+
+## AI Disclosure and Confidentiality
+
+- 若 AI 实质参与提纲组织、语言修改、图示草案或一致性审查，应按学校/期刊要求披露。
+- 不得上传未脱敏学生数据、学校内部治理材料、未发表论文或同行评审材料到外部 AI 工具。
+- AI 不能署名，研究者对全部引用、证据、方法和最终结论负责。
+
+## Example Disclosure Note
+
+AI tools were used to assist with outline organization, figure-label brainstorming and language consistency review. The researcher verified all sources, claims, evidence plans and final wording.

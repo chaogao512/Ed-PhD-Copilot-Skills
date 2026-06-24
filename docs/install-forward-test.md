@@ -6,7 +6,7 @@
 
 ## Test Purpose
 
-验证 `Ed-PdD-Copilot-Skills` 在安装前是否具备可触发、可导航、可输出、可审查的技能链基础。测试重点不是生成新论文，而是检查每个技能是否满足：
+验证 `Ed-PhD-Copilot-Skills` 在安装前是否具备可触发、可导航、可输出、可审查的技能链基础。测试重点不是生成新论文，而是检查每个技能是否满足：
 
 1. 触发描述清楚。
 2. 必要 reference 可被定位。
@@ -75,7 +75,7 @@ python3 scripts/check_skill_structure.py
 Expected result:
 
 ```text
-OK: all Ed-PdD-Copilot skill structure checks passed
+OK: all Ed-PhD-Copilot skill structure checks passed
 ```
 
 ## Limitations

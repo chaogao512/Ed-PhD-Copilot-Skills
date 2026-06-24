@@ -45,3 +45,12 @@
 
 每个 AI 输出都需核验来源、概念、方法、数据、伦理和结论边界。
 
+## AI Disclosure and Confidentiality
+
+- 若 AI 辅助整理教师数字胜任力文献矩阵、访谈提纲或写作润色，应记录工具、任务范围和人工核验方式。
+- 教师访谈原文、学校绩效材料和可识别课堂材料不得直接上传到未获授权的外部 AI。
+- AI 不得署名，也不得被描述为承担研究责任的合作者。
+
+## Example Disclosure Note
+
+AI tools were used to assist with literature-matrix organization, interview-question drafting and language revision. The author verified all citations, revised all instruments and retained responsibility for theory choice, ethics and final claims.

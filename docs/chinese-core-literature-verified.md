@@ -66,6 +66,12 @@
 
 这些主题需要 CNKI、期刊官网、DOI 页面或本地 PDF 的题录核验后才能作为正式学术引用使用。
 
+## Public Web Verification Boundary
+
+2026-06-24 已进行一轮公开网络检索尝试，见 `docs/chinese-literature-web-verification-log.md`。由于检索结果未稳定提供完整题录，本文件暂不新增中文核心/CSSCI 论文条目。
+
+这不是文献缺失结论，而是核验边界结论：没有 CNKI、期刊官网、DOI、本地 PDF 或学校数据库导出题录，就不把候选条目登记为已核验文献。
+
 ## Use Boundary
 
 本文件一旦填写正式条目，可用于：

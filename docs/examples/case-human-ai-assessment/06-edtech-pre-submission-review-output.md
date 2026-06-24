@@ -21,6 +21,10 @@
 
 `Major revision before submission`。选题具有较高价值，但必须严格处理 AI 评价的伦理、证据和人类责任边界。
 
+## Review Depth
+
+`Strict`。该输出模拟投稿前审查，高风险教育 AI、课堂多模态数据和评价用途都必须经过严格门槛。
+
 ## Findings
 
 | Severity | Finding | Repair |
@@ -29,6 +33,17 @@
 | CRITICAL | AI 评价不得直接用于学生排名或教师绩效 | 明确用途限定和人工复核机制 |
 | MAJOR | AI 评分准确率不能证明形成性评价改进 | 加入反馈质量、教师修改、学生理解和教学行动证据 |
 | MAJOR | 人机协同需要具体流程 | 写清 AI 建议、教师解释、教研讨论、学生申诉和改进行动 |
+| MAJOR | 缺少 WWC/CONSORT 风格因果边界 | 若无对照、基线和追踪，将“促进教学改进”改为“形成性评价流程改进迹象” |
+| MAJOR | 缺少 COREQ 风格访谈报告 | 补教师/学生访谈抽样、研究者角色、协议、编码和引文 |
+
+## V1.5 Gate Result
+
+| Gate | Result |
+|---|---|
+| High-risk AI lifecycle | Not pass until oversight, appeal, logs and monitoring are specified |
+| WWC/CONSORT boundary | Conditional: 当前只支持短期过程改善 |
+| COREQ | Conditional: 访谈证据需要报告透明度 |
+| MMAT integration | Conditional: 需增加 joint display |
 
 ## 72-Hour Fix Plan
 
@@ -40,4 +55,3 @@
 ## Remaining Gaps
 
 需补充形成性评价和学习分析伦理文献，并明确具体课堂数据类型。
-

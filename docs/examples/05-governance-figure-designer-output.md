@@ -36,6 +36,11 @@ Layered smart campus governance architecture + human-AI feedback loop.
 
 右侧设置纵向责任链：教师复核、管理者决策、专家审查、伦理监督、申诉反馈。每一层与责任链之间用虚线连接，表示人工解释、复核与问责。
 
+左侧增加两个说明卡：
+
+- **Dataset Datasheet Panel**：数据来源、授权范围、最小化采集、数据质量、保留删除、纠错渠道。
+- **Model/System Card Panel**：多 Agent 用途、非用途边界、适用场景、误差限制、人工复核、监测日志。
+
 ## Arrow rules
 
 - 实线箭头：数据流。
@@ -50,3 +55,12 @@ Layered smart campus governance architecture + human-AI feedback loop.
 ## Quality audit
 
 高风险点是人类监督被画成附属说明。应将责任链放在图中显著位置，并明确人工复核、否决和申诉节点。
+
+## V1.5 Figure Gate
+
+| Gate | Required visual element |
+|---|---|
+| Model card | Intended use, non-use boundary, limitation and monitoring note |
+| Dataset datasheet | Data source, consent/authorization, quality and retention/deletion |
+| Risk register | Risk, affected group, owner, safeguard and monitoring evidence |
+| Responsibility swimlane | Teacher, administrator, expert committee and ethics/audit body each have distinct review responsibility |

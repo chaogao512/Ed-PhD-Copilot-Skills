@@ -1,6 +1,6 @@
 # Chinese EdTech Governance Literature Inventory
 
-> Purpose: build a traceable inventory for strengthening `Ed-PdD-Copilot-Skills` with Chinese educational technology and education informatization governance patterns.  
+> Purpose: build a traceable inventory for strengthening `Ed-PhD-Copilot-Skills` with Chinese educational technology and education informatization governance patterns.
 > Important: entries marked `needs_cnki_verification` are research targets or locally referenced candidates that should be verified against CNKI, journal websites, or the user's local literature corpus before being used as formal citations.
 
 ## Verification Status
@@ -58,3 +58,9 @@
 2. Record exact title, journal, year, issue, page and DOI when available.
 3. Add one extracted writing/method pattern per verified paper.
 4. Move verified entries into a future `docs/chinese-core-literature-verified.md`.
+
+## 2026-06-24 Web Verification Note
+
+A public-web search pass was attempted for representative candidates including 祝智庭、黄荣怀、顾小清/顾小青 and 教育数据治理 topic entries. The results did not expose enough stable bibliographic metadata for formal migration. See `docs/chinese-literature-web-verification-log.md`.
+
+Rule: search snippets, reposts and incomplete metadata may update search strategy, but they must not be treated as verified Chinese core-journal citations.

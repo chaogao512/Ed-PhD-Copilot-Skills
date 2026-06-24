@@ -46,3 +46,12 @@
 4. 结论是否区分评价效率、评价质量和学习效果。
 5. 引用是否逐条核验。
 
+## AI Disclosure and Confidentiality
+
+- 课堂视频、音频、学生发言、作业和评价记录属于敏感教育数据，未经授权不得上传外部 AI。
+- 若 AI 辅助反馈文本、课堂观察量表或结果可视化，教师和研究者必须复核并承担解释责任。
+- 投稿或答辩前应按目标期刊/学校规则披露 AI 辅助范围。
+
+## Example Disclosure Note
+
+AI tools were used to assist with rubric drafting, language revision and consistency checking. No identifiable classroom video, audio or student record was uploaded. Teachers and the researcher reviewed all AI-assisted outputs and retained responsibility for assessment interpretation.

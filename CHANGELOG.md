@@ -1,5 +1,29 @@
 # Changelog
 
+## V1.6 - 2026-06-24
+
+- Added a real doctoral-topic pressure test for county education data governance capacity, running the core chain from idea evaluation to paper template, mixed-methods evidence design and pre-submission review.
+- Added a renderable Mermaid figure artifact and figure QA report for education data governance.
+- Added `venue-disclosure-templates.md` for Chinese CSSCI/core journal submission, doctoral proposal/defense, international journal submission and ethics review AI disclosure.
+- Added Wiley publishing-ethics guidance as an additional disclosure/accountability policy anchor.
+- Updated source registry, evidence base, coverage matrix, examples protocol and structure checker for V1.6 validation.
+- Added V1.6 expert review report.
+
+## V1.5 - 2026-06-24
+
+- Added reporting-standard gates for PRISMA 2020, COREQ, CONSORT/SPIRIT, MMAT and WWC-style causal-claim boundaries.
+- Strengthened mixed-methods claim-evidence rules for systematic reviews, qualitative studies, intervention evaluations and high-risk education AI.
+- Added lifecycle risk-governance audit rules for education AI and data-governance manuscripts.
+- Added `Light / Standard / Strict` audit-depth modes to mixed-methods evidence design and pre-submission review.
+- Propagated V1.5 reporting-standard gates into mixed-methods and pre-submission example outputs across the main case and three transfer cases.
+- Added failure case 09 for fake systematic-review claims based on AI-generated convenience bibliographies.
+- Added public-web Chinese literature verification log and non-promotion rules for incomplete Chinese journal metadata.
+- Strengthened AI workflow and pre-submission review citation-integrity rules for Chinese CSSCI/core-journal candidates.
+- Added AI authorship, disclosure, accountability and confidentiality rules based on ICMJE, Nature Portfolio and Elsevier policy anchors.
+- Propagated AI disclosure/confidentiality guidance into four AI workflow examples and added failure case 10.
+- Added V1.5 figure/introduction gates for high-risk AI, model/system cards, dataset datasheets, risk registers and evidence-synthesis boundary language.
+- Updated evidence base, verified source registry and coverage matrix for V1.5 method-transparency readiness.
+
 ## V1.4 - 2026-06-23
 
 - Verified four Chinese official policy, standard and platform sources through direct URL/title checks.

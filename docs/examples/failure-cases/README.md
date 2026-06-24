@@ -23,8 +23,11 @@ Each failure case should include:
 | `06-overclaimed-causality.md` | `mixed-methods-evidence-template`, `edtech-pre-submission-reviewer` | CRITICAL | Do not infer teaching quality improvement from satisfaction data |
 | `07-ai-fabricated-citation.md` | `ai-assisted-edtech-research-workflow`, `edtech-pre-submission-reviewer` | CRITICAL | Do not fabricate references or treat unverified candidates as citations |
 | `08-incoherent-governance-figure.md` | `governance-figure-designer`, `edtech-pre-submission-reviewer` | CRITICAL | Do not draw high-risk education AI diagrams without oversight, accountability and appeal |
+| `09-fake-systematic-review.md` | `mixed-methods-evidence-template`, `edtech-pre-submission-reviewer`, `ai-assisted-edtech-research-workflow` | CRITICAL | Do not call an AI-generated convenience bibliography a systematic review |
+| `10-undisclosed-ai-and-sensitive-data.md` | `ai-assisted-edtech-research-workflow`, `edtech-pre-submission-reviewer` | CRITICAL | Do not hide material AI use or upload sensitive education data without authorization |
 
 ## Future Test Expansion
 
 - Add teacher digital fatigue failure case.
 - Add invalid indicator-system construction failure case.
+- Add weak COREQ qualitative-reporting failure case.

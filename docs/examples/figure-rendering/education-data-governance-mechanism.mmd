@@ -1,0 +1,66 @@
+flowchart TB
+    subgraph subjects["Data Subjects"]
+        students["Students"]
+        teachers["Teachers"]
+    end
+
+    subgraph sources["Education Data Sources"]
+        sis["Academic affairs"]
+        lms["Learning platform"]
+        affairs["Student affairs"]
+        quality["Quality monitoring"]
+    end
+
+    subgraph governance["Governance Capacity Layer"]
+        catalogue["Data catalogue and standards"]
+        auth["Authorization workflow"]
+        qualitycheck["Data quality audit"]
+        lifecycle["Retention and deletion"]
+        steward["Data steward"]
+    end
+
+    subgraph use["Educational Use Layer"]
+        teaching["Teaching improvement"]
+        support["Student support"]
+        schoolreview["School self-review"]
+        decision["Bureau decision support"]
+    end
+
+    subgraph oversight["Oversight and Accountability"]
+        committee["Data governance committee"]
+        ethics["Ethics review"]
+        appeal["Appeal and correction"]
+        audit["Access log and audit"]
+    end
+
+    students -. "consent, notice, correction" .-> governance
+    teachers -. "notice, role-based use" .-> governance
+    sis --> governance
+    lms --> governance
+    affairs --> governance
+    quality --> governance
+    catalogue --> auth
+    auth --> qualitycheck
+    qualitycheck --> lifecycle
+    steward --> catalogue
+    governance --> teaching
+    governance --> support
+    governance --> schoolreview
+    governance --> decision
+    teaching <--> appeal
+    support <--> appeal
+    decision -. "human review required" .-> committee
+    committee --> ethics
+    committee --> audit
+    audit --> appeal
+    appeal --> steward
+
+    subgraph datasheet["Dataset Datasheet Panel"]
+        ds1["Sources: academic affairs, LMS, student affairs"]
+        ds2["Use: improvement and support only"]
+        ds3["Non-use: automatic punishment or ranking"]
+        ds4["Risks: missing data, bias, overreach"]
+        ds5["Controls: minimization, logging, deletion"]
+    end
+
+    governance -. "documentation" .-> datasheet

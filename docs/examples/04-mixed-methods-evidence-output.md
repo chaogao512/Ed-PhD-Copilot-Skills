@@ -14,10 +14,15 @@
 - `quantitative-methods.md`
 - `qualitative-methods.md`
 - `triangulation.md`
+- `method-reporting-templates.md`
 
 ## Main Output
 
 ## Research questions and claim types
+
+## Audit depth
+
+`Standard`。该示例用于论文设计阶段，需要完整 claim-evidence table、方法路线和结论边界；尚未进入投稿前 `Strict` 审查。
 
 | RQ | Claim type |
 |---|---|
@@ -38,12 +43,22 @@
 - 采集试点前后治理流程时长、任务完成率、人工复核率、系统建议采纳率。
 - 对教师和管理者进行接受度、信任、感知控制和工作负担问卷。
 - 如样本足够，进行信度检验和维度结构检验。
+- 若使用准实验或前后比较，按 WWC/CONSORT 风格报告基线、样本流失、干预一致性和结果测量效度；否则只能使用“初步效果”或“可行性”表述。
 
 ## Qualitative design
 
 - 访谈学校管理者、教师、技术人员和学生代表。
 - 分析制度文件、数据治理规则和平台运行记录。
 - 通过主题编码解释量化结果背后的组织原因。
+- 按 COREQ 风格报告访谈对象选择、研究者角色、访谈提纲、编码流程和代表性引文。
+
+## V1.5 reporting gates
+
+| Gate | Requirement | Current status |
+|---|---|---|
+| Mixed-methods integration | 量化流程数据、访谈解释和系统日志必须在同一 RQ 下联合解释 | 需要 joint display |
+| AI risk lifecycle | 说明风险识别、人工复核、申诉纠错、日志审计和持续监测 | 需补高风险场景表 |
+| Claim boundary | 不用技术性能证明治理能力 | 已降级为“试点流程改善” |
 
 ## Claims to weaken
 

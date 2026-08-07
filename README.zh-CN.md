@@ -1,6 +1,15 @@
-[English](./README.md) | 中文
+<div align="center">
+
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![Version](https://img.shields.io/badge/version-1.8-blue.svg)]()
+[![Platform](https://img.shields.io/badge/platform-agnostic-green.svg)]()
+[![GitHub stars](https://img.shields.io/github/stars/chaogao512/Ed-PhD-Copilot-Skills?style=social)](https://github.com/chaogao512/Ed-PhD-Copilot-Skills)
+
+</div>
 
 # Ed-PhD-Copilot-Skills
+
+[🇺🇸 English](./README.md) | 🇨🇳 中文
 
 面向教育技术、教育领导与管理、教育信息化治理方向的结构化 AI 技能库。平台无关：任何能按 `SKILL.md` 触发技能的智能体平台（Reasonix、ChatGPT Custom GPT、Claude Project、Cursor Rules）都可以直接使用。
 

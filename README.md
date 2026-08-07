@@ -1,6 +1,15 @@
-English | [中文](./README.zh-CN.md)
+<div align="center">
+
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![Version](https://img.shields.io/badge/version-1.8-blue.svg)]()
+[![Platform](https://img.shields.io/badge/platform-agnostic-green.svg)]()
+[![GitHub stars](https://img.shields.io/github/stars/chaogao512/Ed-PhD-Copilot-Skills?style=social)](https://github.com/chaogao512/Ed-PhD-Copilot-Skills)
+
+</div>
 
 # Ed-PhD-Copilot-Skills
+
+🇺🇸 English | [🇨🇳 中文](./README.zh-CN.md)
 
 A structured AI skill library for education technology, educational leadership and education informatization governance research. Platform-agnostic: any agent platform that triggers skills from `SKILL.md` (Reasonix, ChatGPT Custom GPT, Claude Project, Cursor Rules) can use it directly.
 

@@ -17,10 +17,11 @@ Run a pre-submission review for education technology and education governance ma
 - Read `references/method-evidence-checklist.md` for method and evidence review.
 - Read `references/ethics-data-governance.md` for privacy, fairness and human oversight.
 - Read `references/style-anti-patterns.md` for language and AI-tone issues.
+- Read `references/format-gates.md` in Strict mode (or on request) for APA 7th and Chinese CSSCI journal format checks: citations, reference-list style, statistics format, tables/figures, AI disclosure requirements.
 
 ## Review Dimensions
 
-Select review depth before reviewing. Use `Light` for early diagnosis, `Standard` for manuscript revision, and `Strict` for pre-submission or defense review.
+Select review depth before reviewing. In Strict mode, add the format dimension (APA 7th for SSCI/English venues; GB/T 7714 and Chinese CSSCI conventions for Chinese journals) using `references/format-gates.md`; format checks run after, never instead of, content checks. Use `Light` for early diagnosis, `Standard` for manuscript revision, and `Strict` for pre-submission or defense review.
 
 1. Topic and contribution
 2. Policy and context grounding

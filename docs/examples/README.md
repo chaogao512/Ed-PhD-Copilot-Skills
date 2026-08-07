@@ -17,10 +17,11 @@
 
 | Folder/File | Purpose |
 |---|---|
-| `01-...` to `07-...` | 主贯穿案例“多 Agent 高校智能校园治理机制研究”的 7 个技能输出 |
+| `01-...` to `09-...` | 主贯穿案例“多 Agent 高校智能校园治理机制研究”的 9 个技能输出（含 V1.8 新增 `governance-discussion-drafter` 与 `scale-development-template`） |
 | `case-teacher-digital-competence/` | 教师数字胜任力治理案例的 7 技能链输出 |
 | `case-education-data-governance/` | 高校教育数据治理案例的 7 技能链输出 |
 | `case-human-ai-assessment/` | 人机协同课堂评价案例的 7 技能链输出 |
+| `case-learning-analytics-governance/` | 学习分析学业预警治理案例的 7 技能链输出（V1.8 新增） |
 | `pressure-test-digital-governance-doctoral-topic/` | 县域教育数据治理博士选题的核心技能链压力测试 |
 | `figure-rendering/` | 教育数据治理图示的 Mermaid artifact 与图示 QA 报告 |
 | `failure-cases/` | 用于测试技能是否识别低质量输入和研究设计风险 |
@@ -56,6 +57,12 @@
 5. `05-governance-figure-designer-output.md`
 6. `06-edtech-pre-submission-review-output.md`
 7. `07-ai-assisted-workflow-output.md`
+
+## V1.8 Example Requirements
+
+- `08-governance-discussion-drafter-output.md` 与 `09-scale-development-template-output.md` 是主案例新增的两个技能输出，协议字段与 01–07 一致。
+- `case-learning-analytics-governance/03-mixed-methods-evidence-output.md` 必须体现 `qualitative-coding-guide`、`scale-development-template` 路由与 Cohen's κ；`06-edtech-pre-submission-review-output.md` 必须体现 `format-gates` 与 APA 7th 检查。
+- 结构检查脚本已对上述 V1.8 标记做回归校验。
 
 ## V1.6 Pressure-Test Requirements
 

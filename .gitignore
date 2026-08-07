@@ -9,6 +9,10 @@ Thumbs.db
 *.tmp
 *.log
 
+# Reasonix local config and desktop metadata
+.reasonix/
+reasonix.toml
+
 # Build outputs
 dist/
 build/

@@ -24,6 +24,9 @@ REQUIRED_REFERENCE_HINTS = {
     "governance-figure-designer": ["figure-types.md", "layout-patterns.md", "label-language.md", "quality-audit.md"],
     "edtech-pre-submission-reviewer": ["review-rubric.md", "theory-policy-checklist.md", "method-evidence-checklist.md", "ethics-data-governance.md", "style-anti-patterns.md"],
     "ai-assisted-edtech-research-workflow": ["human-ai-boundary.md", "allowed-uses.md", "red-lines.md", "verification-checklist.md"],
+    "literature-reader": ["source-ingestion.md", "literature-card-template.md", "verification-gate.md"],
+    "governance-discussion-drafter": ["discussion-patterns.md", "limitation-taxonomy.md", "implication-mapping.md", "worked-examples.md"],
+    "scale-development-template": ["construct-definition.md", "item-development.md", "validity-reliability-protocol.md", "worked-examples.md"],
 }
 
 REQUIRED_V16_REFERENCE_HINTS = {
@@ -32,6 +35,14 @@ REQUIRED_V16_REFERENCE_HINTS = {
 
 REQUIRED_V17_REFERENCE_HINTS = {
     "governance-paper-template": ["doctoral-stage-templates.md"],
+}
+
+REQUIRED_V18_REFERENCE_HINTS = {
+    "mixed-methods-evidence-template": ["qualitative-coding-guide.md"],
+    "literature-reader": ["systematic-review-workflow.md"],
+    "edtech-pre-submission-reviewer": ["format-gates.md"],
+    "governance-discussion-drafter": ["discussion-patterns.md", "limitation-taxonomy.md", "implication-mapping.md", "worked-examples.md"],
+    "scale-development-template": ["construct-definition.md", "item-development.md", "validity-reliability-protocol.md", "worked-examples.md"],
 }
 
 REQUIRED_DOCS = [
@@ -46,6 +57,7 @@ REQUIRED_DOCS = [
     "docs/cases/case-teacher-digital-competence-governance.md",
     "docs/cases/case-education-data-governance.md",
     "docs/cases/case-human-ai-assessment-governance.md",
+    "docs/cases/case-learning-analytics-governance.md",
     "docs/review-2026-06-23-v0.4.md",
     "docs/review-2026-06-23-v1.0.md",
     "docs/review-2026-06-23-v1.1.md",
@@ -55,6 +67,7 @@ REQUIRED_DOCS = [
     "docs/review-2026-06-24-v1.5.md",
     "docs/review-2026-06-24-v1.6.md",
     "docs/review-2026-06-24-v1.7.md",
+    "docs/review-2026-06-24-v1.8.md",
     "docs/install-readiness-audit.md",
     "docs/install-forward-test.md",
     "docs/examples/pressure-test-digital-governance-doctoral-topic/README.md",
@@ -76,6 +89,8 @@ REQUIRED_EXAMPLES = [
     "docs/examples/05-governance-figure-designer-output.md",
     "docs/examples/06-edtech-pre-submission-review-output.md",
     "docs/examples/07-ai-assisted-workflow-output.md",
+    "docs/examples/08-governance-discussion-drafter-output.md",
+    "docs/examples/09-scale-development-template-output.md",
     "docs/examples/README.md",
     "docs/examples/case-teacher-digital-competence/01-governance-idea-evaluator-output.md",
     "docs/examples/case-teacher-digital-competence/02-governance-paper-template-output.md",
@@ -103,6 +118,7 @@ CASE_EXAMPLE_DIRS = [
     "docs/examples/case-teacher-digital-competence",
     "docs/examples/case-education-data-governance",
     "docs/examples/case-human-ai-assessment",
+    "docs/examples/case-learning-analytics-governance",
 ]
 
 CASE_REQUIRED_SUFFIXES = [
@@ -123,6 +139,8 @@ MAIN_EXAMPLE_FILES = [
     "docs/examples/05-governance-figure-designer-output.md",
     "docs/examples/06-edtech-pre-submission-review-output.md",
     "docs/examples/07-ai-assisted-workflow-output.md",
+    "docs/examples/08-governance-discussion-drafter-output.md",
+    "docs/examples/09-scale-development-template-output.md",
 ]
 
 V15_EXAMPLE_FILES = [
@@ -393,6 +411,34 @@ def main() -> int:
             if marker not in v17_qa_text:
                 failures.append(f"{v17_qa.relative_to(ROOT)} lacks marker: {marker}")
 
+    v18_evidence = ROOT / "docs" / "examples" / "case-learning-analytics-governance" / "03-mixed-methods-evidence-output.md"
+    if v18_evidence.exists():
+        v18_evidence_text = v18_evidence.read_text(encoding="utf-8")
+        for marker in ["qualitative-coding-guide", "scale-development-template", "Cohen's κ"]:
+            if marker not in v18_evidence_text:
+                failures.append(f"{v18_evidence.relative_to(ROOT)} lacks V1.8 marker: {marker}")
+
+    v18_review = ROOT / "docs" / "examples" / "case-learning-analytics-governance" / "06-edtech-pre-submission-review-output.md"
+    if v18_review.exists():
+        v18_review_text = v18_review.read_text(encoding="utf-8")
+        for marker in ["format-gates", "qualitative-coding-guide", "APA 7th"]:
+            if marker not in v18_review_text:
+                failures.append(f"{v18_review.relative_to(ROOT)} lacks V1.8 marker: {marker}")
+
+    v18_discussion = ROOT / "docs" / "examples" / "08-governance-discussion-drafter-output.md"
+    if v18_discussion.exists():
+        v18_discussion_text = v18_discussion.read_text(encoding="utf-8")
+        for marker in ["limitation-taxonomy", "implication-mapping", "discussion-patterns"]:
+            if marker not in v18_discussion_text:
+                failures.append(f"{v18_discussion.relative_to(ROOT)} lacks V1.8 marker: {marker}")
+
+    v18_scale = ROOT / "docs" / "examples" / "09-scale-development-template-output.md"
+    if v18_scale.exists():
+        v18_scale_text = v18_scale.read_text(encoding="utf-8")
+        for marker in ["construct-definition", "validity-reliability-protocol", "EFA"]:
+            if marker not in v18_scale_text:
+                failures.append(f"{v18_scale.relative_to(ROOT)} lacks V1.8 marker: {marker}")
+
     for rel, markers in {
         "docs/examples/figure-rendering/human-ai-assessment-governance-loop.mmd": ["Model/System Card Panel", "not final judgment", "appeal route"],
         "docs/examples/figure-rendering/teacher-digital-competence-governance.mmd": ["Evidence Panel", "Competence is not attendance", "feedback loop"],
@@ -468,6 +514,21 @@ def main() -> int:
                     failures.append(f"{skill}: V1.7 references/{ref} is too thin")
                 if ref not in text:
                     failures.append(f"{skill}: V1.7 references/{ref} is not mentioned in SKILL.md")
+
+    for skill, refs in sorted(REQUIRED_V18_REFERENCE_HINTS.items()):
+        folder = SKILLS / skill
+        skill_md = folder / "SKILL.md"
+        text = skill_md.read_text(encoding="utf-8") if skill_md.exists() else ""
+        for ref in refs:
+            path = folder / "references" / ref
+            if not path.exists():
+                failures.append(f"{skill}: missing V1.8 references/{ref}")
+            else:
+                ref_text = path.read_text(encoding="utf-8").strip()
+                if len(ref_text.splitlines()) < 20:
+                    failures.append(f"{skill}: V1.8 references/{ref} is too thin")
+                if ref not in text:
+                    failures.append(f"{skill}: V1.8 references/{ref} is not mentioned in SKILL.md")
 
     if failures:
         for item in failures:

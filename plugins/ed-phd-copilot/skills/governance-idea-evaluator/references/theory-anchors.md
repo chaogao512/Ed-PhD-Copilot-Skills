@@ -13,6 +13,21 @@ Use theory to generate design and evidence, not as decorative background.
 | Data governance theory | Education data sharing and smart campus governance | Define ownership, standards, quality, authorization and lifecycle | Data policy documents, access logs, quality metrics |
 | Human-AI collaboration | Agent systems and decision support | Specify human oversight, explainability, override and accountability | Decision trace, user trust, intervention records, error handling cases |
 
+## Core EdTech Theories (V1.8 expansion)
+
+Use these classic education technology theories when the topic is teaching, learning or teacher practice with technology. They complement the governance anchors above; a doctoral topic often pairs one learning/teaching theory with one governance theory.
+
+| Theory anchor | Best used for | Design implication | Evidence implication | Failure signal |
+|---|---|---|---|---|
+| Community of Inquiry (CoI) | Online/blended learning, discussion forum quality, presence design | Design teaching presence, social presence and cognitive presence deliberately; map each presence to platform features and facilitation routines | CoI survey scores, forum discourse analysis, facilitation logs | Claiming "online learning works" without presence evidence |
+| Cognitive load theory | Multimedia design, platform UI, teacher workload in new systems | Manage intrinsic load, reduce extraneous load, support germane processing in training and interface design | Worked-example studies, task performance, self-reported load (NASA-TLX style) | Equating more features with better learning |
+| Self-determination theory (SDT) | Teacher adoption, student motivation, professional development autonomy | Support autonomy, competence and relatedness in training and support design | Motivation scales, autonomy-support observations, retention/adoption patterns | Treating usage mandates as sufficient for sustained adoption |
+| UTAUT / technology acceptance | Adoption of platforms, AI tools, dashboards by teachers or administrators | Identify performance expectancy, effort expectancy, social influence and facilitating conditions in the context | Acceptance surveys, usage logs, adoption interviews | Reporting acceptance without actual use or without governance context |
+| Diffusion of innovations | Rollout of AI systems or governance reforms across schools/regions | Segment adopters, design early-adopter support and institutionalization phases | Adoption curve data, adopter interviews, sustainability follow-up | Ignoring non-adopters or forced adoption effects |
+| Institutional theory | Policy implementation, isomorphism, legitimacy of edtech reforms | Distinguish ceremonial compliance from substantive change; design for legitimacy plus real practice change | Policy documents, practice observation, compliance vs change analysis | Treating policy adoption documents as actual implementation |
+| Sociomateriality / actor-network | Platform-practice entanglement in smart campuses | Trace how platforms, routines and actors co-configure; keep humans as accountable actors | Workflow traces, boundary object analysis, negotiation records | Blaming either "the system" or "the users" alone |
+| Learning analytics ethics frameworks | Early warning, dashboards, student data use | Embed consent, transparency, human review, appeal and non-labeling constraints into analytics design | Ethics review documents, student experience data, appeal records | Warning systems that label students without support pathways |
+
 ## Expanded Anchors for V1.1 Multi-Case Use
 
 ### Teacher Digital Competence and Organizational Support

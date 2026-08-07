@@ -16,10 +16,15 @@ Design evidence chains for education technology and governance research. Replace
 - Read `references/indicator-system.md` for indicator or evaluation model studies.
 - Read `references/quantitative-methods.md` for questionnaires, quasi-experiments, logs and statistics.
 - Read `references/qualitative-methods.md` for interviews, focus groups, observation and documents.
+- Read `references/qualitative-coding-guide.md` when qualitative data must be coded into themes (open/axial/selective coding, thematic analysis, inter-coder reliability).
 - Read `references/triangulation.md` when integrating evidence.
 - Read `references/method-reporting-templates.md` when writing methods sections.
 - Read `references/design-science-reporting.md` when the study builds or evaluates an artifact.
 - Read `references/worked-examples.md` when the user needs filled method examples.
+
+## Routing Rule
+
+If the study's core deliverable is a measurement instrument (量表/测评工具) — construct definition, item development, EFA/CFA, reliability and validity evidence, norms — route the user to the `scale-development-template` skill for the full instrument pipeline, then return here for claim-evidence integration.
 
 ## Core Procedure
 

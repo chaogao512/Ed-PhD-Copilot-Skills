@@ -1,0 +1,3 @@
+display_name: Literature Reader
+short_description: Read literature from Zotero or local folders.
+default_prompt: Read the literature from the provided Zotero export / local directory and produce structured literature cards with citation-readiness status.

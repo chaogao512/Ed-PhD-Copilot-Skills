@@ -1,5 +1,21 @@
 # Changelog
 
+## V1.8 - 2026-06-24
+
+- Added `governance-discussion-drafter` skill: Discussion drafting with `discussion-patterns.md`, `limitation-taxonomy.md`, `implication-mapping.md` and `worked-examples.md`; main example `docs/examples/08-governance-discussion-drafter-output.md`.
+- Added `scale-development-template` skill: construct definition, item development, expert review (I-CVI/S-CVI), pilot, EFA/CFA, reliability/validity protocol and norms/cut-off gates; main example `docs/examples/09-scale-development-template-output.md`; routing rule from `mixed-methods-evidence-template`.
+- Added `qualitative-coding-guide.md` (open/axial/selective coding, Braun & Clarke thematic analysis, Cohen's κ, codebook template) to `mixed-methods-evidence-template`.
+- Extended `quantitative-methods.md` with effect-size reporting, robustness checks and power-analysis minimum requirements.
+- Added `systematic-review-workflow.md` (review-type selection, PRISMA-style flow, MMAT/WWC/CASP/AMSTAR-2 appraisal, gap identification) to `literature-reader`.
+- Added `format-gates.md` (APA 7th, GB/T 7714, Chinese CSSCI conventions) to `edtech-pre-submission-reviewer` for Strict-mode format audits.
+- Expanded `theory-anchors.md` with CoI, cognitive load theory, SDT, UTAUT, diffusion of innovations, institutional theory, sociomateriality and learning-analytics ethics frameworks.
+- Added fourth transfer case 基于学习分析的大学生学业预警与精准支持机制研究 with full seven-skill chain outputs under `docs/examples/case-learning-analytics-governance/`.
+- Added failure case 11 for learning-analytics labeling without support, consent and appeal.
+- Registered all V1.8 additions in `scripts/check_skill_structure.py` (REQUIRED_V18_REFERENCE_HINTS, new case dir, new main examples, V1.8 markers).
+- Committed the `literature-reader` skill files (developed during V1.7 but not yet under version control) together with its V1.8 `systematic-review-workflow.md` addition.
+- Updated coverage matrix, skills README, examples README, CHANGELOG and README for V1.8.
+- Added V1.8 review report.
+
 ## V1.7 - 2026-06-24
 
 - Added a full seven-skill pressure test for the county education data governance doctoral topic.

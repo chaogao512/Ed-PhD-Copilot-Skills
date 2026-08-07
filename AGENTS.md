@@ -11,7 +11,7 @@
 
 ## Commands
 
-- **结构检查**: `make check`（等价于 `python3 scripts/check_skill_structure.py`）— 验证 10 个技能的 SKILL.md、agents/openai.yaml、references/ 完整性，docs/ 关键文件与协议段落、示例协议段落、verified-source-registry 标记等。
+- **结构检查**: `python3 scripts/check_skill_structure.py` — 验证 10 个技能的 SKILL.md、agents/openai.yaml、references/ 完整性，docs/ 关键文件与协议段落、示例协议段落、verified-source-registry 标记等。本地开发可加 `make check` 快捷方式（Makefile 为本地维护文件，不随仓库分发）。
 
 （本项目无 build/test/lint/run 命令；它是纯内容仓库。）
 

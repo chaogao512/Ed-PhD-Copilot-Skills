@@ -78,7 +78,6 @@ REQUIRED_DOCS = [
     "docs/examples/figure-rendering/human-ai-assessment-governance-loop.mmd",
     "docs/examples/figure-rendering/teacher-digital-competence-governance.mmd",
     "docs/examples/figure-rendering/v17-figure-qa-report.md",
-    "CHANGELOG.md",
 ]
 
 REQUIRED_EXAMPLES = [
@@ -189,6 +188,12 @@ def main() -> int:
             failures.append(f"missing required project artifact: {rel}")
         elif len(path.read_text(encoding="utf-8").strip().splitlines()) < 5:
             failures.append(f"project artifact too short: {rel}")
+
+    # CHANGELOG.md is a local maintenance file, not part of the distributed repo.
+    # Check it only when present locally.
+    changelog = ROOT / "CHANGELOG.md"
+    if changelog.exists() and len(changelog.read_text(encoding="utf-8").strip().splitlines()) < 5:
+        failures.append("CHANGELOG.md too short")
 
     coverage = ROOT / "docs" / "skill-coverage-matrix.md"
     if coverage.exists():

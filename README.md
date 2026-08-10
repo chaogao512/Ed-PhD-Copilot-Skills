@@ -93,7 +93,7 @@ Version **V1.9** (2026-08-10).
 
 **Evidence and cases**
 
-- 4 cross-cutting cases run through the 7-skill chain: smart campus governance, teacher digital competence, education data governance, human-AI classroom assessment, learning-analytics early warning
+- 5 case documents run through the skill chain: smart campus governance (main case, outputs 01–09) plus four transfer cases (teacher digital competence, education data governance, human-AI classroom assessment, learning-analytics early warning), each with seven-skill-chain outputs
 - 9 main-case skill outputs plus 11 failure-case regressions
 - Literature evidence: `docs/evidence-base.md`, `docs/verified-source-registry.md`, verified Chinese core-journal registry
 

@@ -21,7 +21,7 @@
 |---|---|---|---|---|
 | 5 | **开题报告级完整样稿缺失** | 只有 `doctoral-stage-templates.md` 模板，无完整样稿 | "博士工作台"的核心交付物缺席；模板可用性未被实例验证 | 用户提供研究方向后，产出 `docs/examples/doctoral-proposal-sample.md` |
 | 6 | **研究设计流程图缺失** | `figure-rendering/` 只有机制图，无论文证据流 / 混合方法整合路径图 | 开题报告与论文方法章缺关键图示 | 制作 Mermaid/SVG 研究设计流程图（DBR / RCT / 混合方法三类）+ QA 报告 |
-| 7 | **中文核心/CSSCI 文献核验未完成** | `chinese-core-literature-inventory.md` 多数条目仍为 `needs_cnki_verification` | V2.0 证据硬化的最大短板；技能规则缺乏中文文献锚点 | 逐条经 CNKI / 期刊官网 / DOI / 本地 PDF 核验，登记至 verified 清单并转化为技能规则 |
+| 7 | **中文核心/CSSCI 文献核验未完成** | `chinese-core-literature-inventory.md` 28 条中 11 条 `needs_cnki_verification`、6 条 `local_plan_reference` 尚未正式核验；已有 2026-06-24 一轮公开网络核验记录（`chinese-literature-web-verification-log.md`、`chinese-core-literature-verified.md`） | V2.0 证据硬化的最大短板；技能规则缺乏中文文献锚点 | 逐条经 CNKI / 期刊官网 / DOI / 本地 PDF 核验，登记至 verified 清单并转化为技能规则 |
 | 8 | **Handbook 第六章为空** | `handbook/06_Case_Studies/` 只有规划说明，无案例剖析 | 知识层"案例验证"环节缺席；3.2 Flowchart 无落地示例 | 从 `docs/cases/` 选 1 篇案例按 3.2 框架逐段剖析 |
 | 9 | **跨平台部署指南缺失** | 无 `handbook/deployment-guide.md` | 平台无关定位缺少实操说明；非 Reasonix 平台用户不知如何注册 SKILL.md | 撰写各平台注册方法、差异与 PDF 解析降级策略 |
 
@@ -30,7 +30,7 @@
 | # | 问题 | 现状 | 影响 | 建议动作 |
 |---|---|---|---|---|
 | 10 | **`docs/skill-improvement-task-list.md` 严重过时** | 2026-06-23 V1.0 时代文档：称"7 个技能""V1.0 安装前可用" | 与 V1.9 实际状态（10 技能）矛盾；误导维护者 | 重写或归档（内容已被 roadmap.md 与 to-do.md 取代） |
-| 11 | **历史分析文档与当前状态脱节** | `docs/adaptation-diagnosis.md`、`docs/paper-template-adaptation-plan.md` 是早期诊断 | 引用时可能误以为仍是最新设计依据 | 标注"历史分析（V0.x 时代）"或将结论迁移至 roadmap |
+| 11 | **历史分析文档与当前状态脱节** | `docs/adaptation-diagnosis.md`、`docs/paper-template-adaptation-plan.md` 是对 Supervisor-Skills 的早期适配分析，无版本/日期标注 | 引用时可能误以为仍是最新设计依据 | 在文档头部标注"历史适配分析（已被 roadmap / to-do 取代）"或将结论迁移至 roadmap |
 | 12 | **README/覆盖矩阵与仓库状态同步依赖人工** | 每次版本变更需手动更新多处 | 已出现多次"README 过时"事件（handbook 描述、技能数） | 在检查脚本中增加关键一致性断言（技能数、review 文件存在性、版本号一致） |
 
 ## P2：工程化与自动化

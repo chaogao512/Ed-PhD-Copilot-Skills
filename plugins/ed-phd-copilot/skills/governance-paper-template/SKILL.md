@@ -10,6 +10,10 @@ description: >-
 
 Build a full logical skeleton for education informatization governance studies. Convert an idea into a paper structure that balances policy context, theory, socio-technical architecture, stakeholder roles, evidence design, ethics and practical pathways.
 
+## Handbook Guidance
+
+Read `handbook/03_Paper_Writing/3.1` (what writing a paper requires) and `3.3` (Full Paper thinking template) to understand the knowledge layer this skeleton operationalizes.
+
 ## Reference Navigation
 
 - Read `references/paper-types.md` to classify the manuscript.

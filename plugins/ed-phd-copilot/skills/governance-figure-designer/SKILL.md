@@ -10,6 +10,10 @@ description: >-
 
 Design academic figures for education technology and governance manuscripts. Replace flat data-flow or neural-network diagrams with figures that show policy context, organizational hierarchy, stakeholder roles, data governance, intelligent systems, human oversight, feedback loops and ethical boundaries.
 
+## Handbook Guidance
+
+Read `handbook/04_Scientific_Plotting/` (§4.1–4.4: motivated example, solution overview, experimental results, plotting checklist) before designing figures.
+
 ## Reference Navigation
 
 - Read `references/figure-types.md` to classify the figure.

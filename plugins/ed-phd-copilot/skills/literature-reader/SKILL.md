@@ -10,6 +10,10 @@ description: >-
 
 Read literature from the sources the user actually keeps it in — Zotero exports, the Zotero local database, or a plain folder of PDFs and Markdown notes — and turn raw files into structured literature cards that downstream skills (`governance-idea-evaluator`, `edtech-intro-drafter`, `mixed-methods-evidence-template`) can consume. The skill is platform-agnostic: the host agent performs the actual file access and PDF parsing; this skill defines what to read, in what order, and what to produce.
 
+## Handbook Guidance
+
+Use `handbook/03_Paper_Writing/3.2`'s flowchart as an analysis lens when producing literature cards for paper-deconstruction purposes; `handbook/06_Case_Studies/` will hold worked paper analyses (under construction).
+
 ## Reference Navigation
 
 - Always read `references/source-ingestion.md` before touching any input source.

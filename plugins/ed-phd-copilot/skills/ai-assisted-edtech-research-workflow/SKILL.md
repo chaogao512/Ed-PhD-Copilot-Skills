@@ -10,6 +10,10 @@ description: >-
 
 Plan AI-assisted research while keeping academic judgment with the researcher. AI may accelerate organization, coding, figure drafting, language polishing and checklist-based review. It must not replace problem selection, theoretical judgment, research design ownership, data interpretation, citation verification, ethics responsibility or final claims.
 
+## Handbook Guidance
+
+Read `handbook/05_Vibe_Research/` (§5.1–5.2) for the AI-assisted research methodology; this skill defines the compliance boundaries around it.
+
 ## Reference Navigation
 
 - Read `references/human-ai-boundary.md` when assigning responsibilities.

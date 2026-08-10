@@ -10,6 +10,10 @@ description: >-
 
 Generate an Introduction outline for education technology and governance papers. Replace the pure technical-defect story with a dialectical narrative: policy and era demands create transformation pressure; digital technology provides potential; shallow or alienated implementation creates governance contradictions; the study earns legitimacy by resolving that contradiction through theory-grounded design or evidence.
 
+## Handbook Guidance
+
+Read `handbook/03_Paper_Writing/3.2_Introduction写作的思考模型.md` (Introduction thinking model and flowchart) before drafting; this skill executes that flowchart as a paragraph-level outline.
+
 ## Reference Navigation
 
 - Read `references/four-part-logic.md` before drafting.

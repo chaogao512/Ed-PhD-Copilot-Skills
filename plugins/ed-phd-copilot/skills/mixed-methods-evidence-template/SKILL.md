@@ -10,6 +10,10 @@ description: >-
 
 Design evidence chains for education technology and governance research. Replace single technical scores with mixed evidence that can support claims about educational value, governance effectiveness, organizational change and human-AI collaboration.
 
+## Handbook Guidance
+
+Consult `handbook/03_Paper_Writing/3.5_写作细节与Checklist.md` for writing-level checklists that complement this skill's evidence-design gates.
+
 ## Reference Navigation
 
 - Read `references/claim-evidence-matrix.md` before accepting any claim.

@@ -10,6 +10,10 @@ description: >-
 
 Design a defensible measurement instrument (量表/测评工具) for education technology and governance constructs such as digital competence, data governance capability, human-AI collaboration readiness or perceived algorithmic fairness. Replace "we designed a questionnaire" with a documented chain: construct definition → dimension derivation → item pool → expert review → pilot → EFA → CFA → reliability/validity evidence → norms or cut-off points. Every stage must be reported so reviewers can audit instrument quality.
 
+## Handbook Guidance
+
+Read `handbook/03_Paper_Writing/3.4_未迁移说明.md` to see why the original benchmark-paper template was not migrated and how this skill covers the EdTech equivalent (instrument development and validation).
+
 ## Reference Navigation
 
 - Read `references/construct-definition.md` before writing any item.

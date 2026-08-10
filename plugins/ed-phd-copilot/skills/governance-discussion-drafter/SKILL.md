@@ -10,6 +10,10 @@ description: >-
 
 Draft a Discussion section that converts empirical or design findings into defensible scholarly claims for education technology and governance papers. Replace vague summary ("this study found...") and promotional implications ("this will promote digital transformation") with a structured argument: what was found, what it means against theory and prior evidence, why unexpected results occurred, what the study cannot claim, and what researchers, schools and policy-makers may or may not infer.
 
+## Handbook Guidance
+
+Consult `handbook/03_Paper_Writing/3.5_写作细节与Checklist.md` for writing-level standards that complement this skill's Discussion structure.
+
 ## Reference Navigation
 
 - Read `references/discussion-patterns.md` before drafting any paragraph.

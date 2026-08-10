@@ -30,7 +30,7 @@ Ed-PhD-Copilot-Skills/
 │   ├── literature-reader/                   文献读取与系统综述
 │   ├── governance-discussion-drafter/       Discussion 写作
 │   └── scale-development-template/          量表开发与验证
-├── handbook/                        系统指南（目前仅 README，待建设）
+├── handbook/                        系统指南（6 章 13 篇方法论文档：论文评价/选题/写作/作图/Vibe Research/案例）
 ├── docs/                            诊断、审查、案例、示例、文献依据
 ├── scripts/                         check_skill_structure.py 结构完整性检查
 └── assets/                          外部参考资产

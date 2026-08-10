@@ -10,6 +10,10 @@ description: >-
 
 Evaluate a preliminary research idea as an education technology and education governance study, not as a pure algorithm project. Judge whether the idea responds to a real governance problem, is theory-anchored, organizationally feasible, ethically controllable and evidencable with appropriate mixed evidence.
 
+## Handbook Guidance
+
+Before screening a topic, read `handbook/02_Idea_Generation/` (§2.1–2.3: idea lifecycle, five-dimension framing, disruptive innovation) to build the underlying judgment; this skill turns that judgment into a structured evaluation.
+
 ## Reference Navigation
 
 - Always read `references/fatal-flaws.md` before scoring.

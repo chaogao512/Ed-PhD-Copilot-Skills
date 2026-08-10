@@ -10,6 +10,10 @@ description: >-
 
 Run a pre-submission review for education technology and education governance manuscripts. Prioritize bugs in the argument: weak theory, policy slogans without analysis, technology determinism, unsupported governance claims, ethics gaps, method-evidence mismatch and overclaiming beyond data.
 
+## Handbook Guidance
+
+Read `handbook/01_Preliminary/1.1_如何评价一篇论文的质量.md` to calibrate review severity; this skill operationalizes the same judgment as a severity-ranked checklist.
+
 ## Reference Navigation
 
 - Read `references/review-rubric.md` for severity definitions.

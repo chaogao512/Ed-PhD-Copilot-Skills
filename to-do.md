@@ -21,7 +21,7 @@
 |---|---|---|---|---|
 | 5 | **开题报告级完整样稿缺失** | 只有 `doctoral-stage-templates.md` 模板，无完整样稿 | "博士工作台"的核心交付物缺席；模板可用性未被实例验证 | 用户提供研究方向后，产出 `docs/examples/doctoral-proposal-sample.md` |
 | 6 | **研究设计流程图缺失** | `figure-rendering/` 只有机制图，无论文证据流 / 混合方法整合路径图 | 开题报告与论文方法章缺关键图示 | 制作 Mermaid/SVG 研究设计流程图（DBR / RCT / 混合方法三类）+ QA 报告 |
-| 7 | **中文核心/CSSCI 文献核验未完成** | `chinese-core-literature-inventory.md` 28 条中 11 条 `needs_cnki_verification`、6 条 `local_plan_reference` 尚未正式核验；已有 2026-06-24 一轮公开网络核验记录（`chinese-literature-web-verification-log.md`、`chinese-core-literature-verified.md`） | V2.0 证据硬化的最大短板；技能规则缺乏中文文献锚点 | 逐条经 CNKI / 期刊官网 / DOI / 本地 PDF 核验，登记至 verified 清单并转化为技能规则 |
+| 7 | **中文核心/CSSCI 文献核验未完成** | `chinese-core-literature-inventory.md` 28 条中 11 条 `needs_cnki_verification`、6 条 `local_plan_reference` 尚未正式核验；已有两批核验记录：V1.4 政策/标准批次（`chinese-core-literature-verified.md`）与 2026-06-24 公开网络批次（`chinese-literature-web-verification-log.md`） | V2.0 证据硬化的最大短板；技能规则缺乏中文文献锚点 | 逐条经 CNKI / 期刊官网 / DOI / 本地 PDF 核验，登记至 verified 清单并转化为技能规则 |
 | 8 | **Handbook 第六章为空** | `handbook/06_Case_Studies/` 只有规划说明，无案例剖析 | 知识层"案例验证"环节缺席；3.2 Flowchart 无落地示例 | 从 `docs/cases/` 选 1 篇案例按 3.2 框架逐段剖析 |
 | 9 | **跨平台部署指南缺失** | 无 `handbook/deployment-guide.md` | 平台无关定位缺少实操说明；非 Reasonix 平台用户不知如何注册 SKILL.md | 撰写各平台注册方法、差异与 PDF 解析降级策略 |
 

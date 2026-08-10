@@ -1,6 +1,6 @@
 # Skill Coverage Matrix
 
-覆盖矩阵基线 V1.7 → 本轮更新 V1.8（Discussion 写作、量表开发、质性编码、系统综述、格式门、统计报告规范）。
+覆盖矩阵基线 V1.8 → 本轮更新 V1.9（版本号统一 + roadmap 重写 + Handbook 知识层双向链接）。
 
 | Skill | Rubric | Checklist | Anti-patterns | Worked example | Method detail | Ethics check | Routing rule | Failure cases | Status |
 |---|---|---|---|---|---|---|---|---|---|

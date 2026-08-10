@@ -1,7 +1,7 @@
 <div align="center">
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/badge/version-1.8-blue.svg)]()
+[![Version](https://img.shields.io/badge/version-1.9-blue.svg)]()
 [![Platform](https://img.shields.io/badge/platform-agnostic-green.svg)]()
 [![GitHub stars](https://img.shields.io/github/stars/chaogao512/Ed-PhD-Copilot-Skills?style=social)](https://github.com/chaogao512/Ed-PhD-Copilot-Skills)
 
@@ -83,7 +83,7 @@ Handbook 装的是理论和方法论：怎么判断一篇论文、怎么选题�
 
 ## 当前状态
 
-版本 **V1.8**（2026-06-24）。
+版本 **V1.9**（2026-08-10）。
 
 **技能与支撑**
 
@@ -99,7 +99,7 @@ Handbook 装的是理论和方法论：怎么判断一篇论文、怎么选题�
 
 **评审记录**
 
-- 每版评审存档于 `docs/review-YYYY-MM-DD-vX.Y.md`，最新为 [`docs/review-2026-06-24-v1.8.md`](docs/review-2026-06-24-v1.8.md)
+- 每版评审存档于 `docs/review-YYYY-MM-DD-vX.Y.md`，最新为 [`docs/review-2026-08-10-v1.9.md`](docs/review-2026-08-10-v1.9.md)
 
 **验证**
 

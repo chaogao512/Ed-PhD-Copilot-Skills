@@ -1,7 +1,7 @@
 <div align="center">
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Version](https://img.shields.io/badge/version-1.8-blue.svg)]()
+[![Version](https://img.shields.io/badge/version-1.9-blue.svg)]()
 [![Platform](https://img.shields.io/badge/platform-agnostic-green.svg)]()
 [![GitHub stars](https://img.shields.io/github/stars/chaogao512/Ed-PhD-Copilot-Skills?style=social)](https://github.com/chaogao512/Ed-PhD-Copilot-Skills)
 
@@ -83,7 +83,7 @@ The handbook holds the theory and methodology — how to judge a paper, how to p
 
 ## Current status
 
-Version **V1.8** (2026-06-24).
+Version **V1.9** (2026-08-10).
 
 **Skills and support material**
 
@@ -99,7 +99,7 @@ Version **V1.8** (2026-06-24).
 
 **Reviews**
 
-- Each version has a review record in `docs/review-YYYY-MM-DD-vX.Y.md`; the latest is [`docs/review-2026-06-24-v1.8.md`](docs/review-2026-06-24-v1.8.md)
+- Each version has a review record in `docs/review-YYYY-MM-DD-vX.Y.md`; the latest is [`docs/review-2026-08-10-v1.9.md`](docs/review-2026-08-10-v1.9.md)
 
 **Validation**
 

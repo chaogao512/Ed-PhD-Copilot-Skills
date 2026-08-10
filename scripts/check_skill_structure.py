@@ -68,6 +68,7 @@ REQUIRED_DOCS = [
     "docs/review-2026-06-24-v1.6.md",
     "docs/review-2026-06-24-v1.7.md",
     "docs/review-2026-06-24-v1.8.md",
+    "docs/review-2026-08-10-v1.9.md",
     "docs/install-readiness-audit.md",
     "docs/install-forward-test.md",
     "docs/examples/pressure-test-digital-governance-doctoral-topic/README.md",

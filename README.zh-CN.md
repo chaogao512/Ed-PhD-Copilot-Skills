@@ -48,7 +48,7 @@ Ed-PhD-Copilot-Skills/
 ├── README.md / README.zh-CN.md
 ├── LICENSE
 ├── docs/            评审、案例、示例、文献依据
-├── handbook/        系统指南（目前仅 README）
+├── handbook/        系统指南：6 章 13 篇方法论文档（论文评价/选题/写作/作图/Vibe Research/案例）
 ├── plugins/
 │   └── ed-phd-copilot/skills/   10 个技能，各含 SKILL.md + agents/openai.yaml + references/
 ├── scripts/         check_skill_structure.py 结构检查
@@ -56,6 +56,19 @@ Ed-PhD-Copilot-Skills/
 ```
 
 每个技能三层：`SKILL.md`（frontmatter + 英文执行流程）、`agents/openai.yaml`（平台元数据）、`references/`（评分表、检查清单、模板，按需读取）。
+
+## Handbook：知识层
+
+Handbook 装的是理论和方法论：怎么判断一篇论文、怎么选题、怎么写、怎么作图。Skills 负责执行，Handbook 负责解释为什么这样做。调用技能之前，先读对应的 Handbook 章节。
+
+| 章节 | 主题 | 核心内容 |
+|---|---|---|
+| 01 宏观认识与评价 | 如何评价一篇论文的质量 | 审稿视角、EdTech 期刊评审文化、理论根基 |
+| 02 Idea 的诞生与升华 | 选题、创新与能力匹配 | 研究类型生命周期、五维 Idea 框架、颠覆式创新 |
+| 03 论文写作方法论 | 从骨架到细节 | Introduction Flowchart、Full Paper 模板、写作 Checklist（APA 7th / CSSCI） |
+| 04 科研作图指南 | 论文图表的设计与绘制 | 动机图、方案总览图、实验结果图范式、工具速查表 |
+| 05 Vibe Research | AI 辅助科研实战 | Vibe Coding / Figure / Writing 心法技法、工具经验、AI 使用边界 |
+| 06 论文写作案例 | EdTech 论文写作剖析 | 建设中——拟收录类型已列出 |
 
 ## 推荐使用路径
 

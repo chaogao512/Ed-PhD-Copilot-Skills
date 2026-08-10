@@ -48,7 +48,7 @@ Ed-PhD-Copilot-Skills/
 ├── README.md / README.zh-CN.md
 ├── LICENSE
 ├── docs/            reviews, cases, examples, literature evidence
-├── handbook/        system guide (README only for now)
+├── handbook/        system guide: 6 chapters, 13 methodology docs (evaluation / ideas / writing / plotting / AI-assisted research / cases)
 ├── plugins/
 │   └── ed-phd-copilot/skills/   10 skills, each with SKILL.md + agents/openai.yaml + references/
 ├── scripts/         check_skill_structure.py structure checks
@@ -56,6 +56,19 @@ Ed-PhD-Copilot-Skills/
 ```
 
 Every skill has three layers: `SKILL.md` (frontmatter plus execution flow), `agents/openai.yaml` (platform metadata) and `references/` (rubrics, checklists, templates loaded on demand).
+
+## Handbook: the knowledge layer
+
+The handbook holds the theory and methodology — how to judge a paper, how to pick a topic, how to write and how to draw. Skills execute; the handbook explains why. Read the matching chapter before calling a skill.
+
+| Chapter | Topic | What it covers |
+|---|---|---|
+| 01 Preliminary | Evaluating a paper | Reviewer perspective, EdTech journal culture, theory grounding |
+| 02 Idea Generation | Topics and innovation | Research-type lifecycle, five-dimension idea framework, disruptive innovation |
+| 03 Paper Writing | From skeleton to detail | Introduction flowchart, full-paper template, writing checklist (APA 7th / CSSCI) |
+| 04 Scientific Plotting | Figures | Motivation, solution-overview and results figures, tools cheat-sheet |
+| 05 Vibe Research | AI-assisted research | Vibe Coding / Figure / Writing, tool experience, AI use boundaries |
+| 06 Case Studies | EdTech paper walkthroughs | Under construction — planned types listed |
 
 ## Suggested workflow
 
